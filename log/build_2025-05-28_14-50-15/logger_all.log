@@ -1,0 +1,201 @@
+[3.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75594ca178e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75594cbc06a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75594cbc06a0>>)
+[4.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.951s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.951s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sash/smart_cane_ws'
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.044s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.045s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.046s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extension 'ignore'
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extension 'ignore_ament_install'
+[5.047s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extensions ['colcon_pkg']
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extension 'colcon_pkg'
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extensions ['colcon_meta']
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extension 'colcon_meta'
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extensions ['ros']
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_interfaces) by extension 'ros'
+[5.075s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_cane_interfaces' with type 'ros.ament_cmake' and name 'smart_cane_interfaces'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extensions ['ignore', 'ignore_ament_install']
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extension 'ignore'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extension 'ignore_ament_install'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extensions ['colcon_pkg']
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extension 'colcon_pkg'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extensions ['colcon_meta']
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extension 'colcon_meta'
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extensions ['ros']
+[5.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/smart_cane_system) by extension 'ros'
+[5.079s] DEBUG:colcon.colcon_core.package_identification:Package 'src/smart_cane_system' with type 'ros.ament_python' and name 'smart_cane_system'
+[5.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.079s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[5.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[5.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sash/smart_cane_ws/install
+[5.254s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[5.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'cmake_args' from command line to 'None'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'cmake_target' from command line to 'None'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[5.354s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.354s] DEBUG:colcon.colcon_core.verb:Building package 'smart_cane_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sash/smart_cane_ws/build/smart_cane_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sash/smart_cane_ws/install/smart_cane_interfaces', 'merge_install': False, 'path': '/home/sash/smart_cane_ws/src/smart_cane_interfaces', 'symlink_install': False, 'test_result_base': None}
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'cmake_args' from command line to 'None'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'cmake_target' from command line to 'None'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'cmake_clean_cache' from command line to 'False'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'cmake_clean_first' from command line to 'False'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'cmake_force_configure' from command line to 'False'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'ament_cmake_args' from command line to 'None'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'catkin_cmake_args' from command line to 'None'
+[5.355s] Level 5:colcon.colcon_core.verb:set package 'smart_cane_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.355s] DEBUG:colcon.colcon_core.verb:Building package 'smart_cane_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sash/smart_cane_ws/build/smart_cane_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sash/smart_cane_ws/install/smart_cane_system', 'merge_install': False, 'path': '/home/sash/smart_cane_ws/src/smart_cane_system', 'symlink_install': False, 'test_result_base': None}
+[5.355s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.357s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sash/smart_cane_ws/src/smart_cane_interfaces' with build type 'ament_cmake'
+[5.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sash/smart_cane_ws/src/smart_cane_interfaces'
+[5.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --build /home/sash/smart_cane_ws/build/smart_cane_interfaces -- -j4 -l4
+[7.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --build /home/sash/smart_cane_ws/build/smart_cane_interfaces -- -j4 -l4
+[7.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --install /home/sash/smart_cane_ws/build/smart_cane_interfaces
+[7.805s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_cane_interfaces)
+[7.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --install /home/sash/smart_cane_ws/build/smart_cane_interfaces
+[7.833s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces' for CMake module files
+[7.835s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces' for CMake config files
+[7.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_cane_interfaces', 'cmake_prefix_path')
+[7.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/cmake_prefix_path.ps1'
+[7.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/cmake_prefix_path.dsv'
+[7.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/cmake_prefix_path.sh'
+[7.879s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib'
+[7.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_cane_interfaces', 'ld_library_path_lib')
+[7.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/ld_library_path_lib.ps1'
+[7.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/ld_library_path_lib.dsv'
+[7.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/ld_library_path_lib.sh'
+[7.883s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/bin'
+[7.883s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/pkgconfig/smart_cane_interfaces.pc'
+[7.883s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/python3.10/site-packages'
+[7.883s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/bin'
+[7.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.ps1'
+[7.886s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.dsv'
+[7.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.sh'
+[7.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.bash'
+[7.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.zsh'
+[7.920s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/colcon-core/packages/smart_cane_interfaces)
+[7.922s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_cane_interfaces)
+[7.922s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces' for CMake module files
+[7.923s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces' for CMake config files
+[7.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_cane_interfaces', 'cmake_prefix_path')
+[7.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/cmake_prefix_path.ps1'
+[7.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/cmake_prefix_path.dsv'
+[7.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/cmake_prefix_path.sh'
+[7.926s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib'
+[7.926s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_cane_interfaces', 'ld_library_path_lib')
+[7.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/ld_library_path_lib.ps1'
+[7.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/ld_library_path_lib.dsv'
+[7.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/hook/ld_library_path_lib.sh'
+[7.929s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/bin'
+[7.929s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/pkgconfig/smart_cane_interfaces.pc'
+[7.929s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/python3.10/site-packages'
+[7.929s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_interfaces/bin'
+[7.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.ps1'
+[7.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.dsv'
+[7.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.sh'
+[7.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.bash'
+[7.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.zsh'
+[7.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sash/smart_cane_ws/install/smart_cane_interfaces/share/colcon-core/packages/smart_cane_interfaces)
+[7.934s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sash/smart_cane_ws/src/smart_cane_system' with build type 'ament_python'
+[7.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_cane_system', 'ament_prefix_path')
+[7.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/hook/ament_prefix_path.ps1'
+[7.936s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/hook/ament_prefix_path.dsv'
+[7.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/hook/ament_prefix_path.sh'
+[7.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.547s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sash/smart_cane_ws/src/smart_cane_system'
+[8.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sash/smart_cane_ws/src/smart_cane_system': PYTHONPATH=/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/sash/smart_cane_ws/build/smart_cane_system/build install --record /home/sash/smart_cane_ws/build/smart_cane_system/install.log --single-version-externally-managed install_data
+[10.997s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_system' for CMake module files
+[10.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sash/smart_cane_ws/src/smart_cane_system' returned '0': PYTHONPATH=/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/sash/smart_cane_ws/build/smart_cane_system/build install --record /home/sash/smart_cane_ws/build/smart_cane_system/install.log --single-version-externally-managed install_data
+[10.999s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_system' for CMake config files
+[10.999s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_system/lib'
+[11.000s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_system/bin'
+[11.000s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_system/lib/pkgconfig/smart_cane_system.pc'
+[11.000s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages'
+[11.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('smart_cane_system', 'pythonpath')
+[11.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/hook/pythonpath.ps1'
+[11.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/hook/pythonpath.dsv'
+[11.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/hook/pythonpath.sh'
+[11.005s] Level 1:colcon.colcon_core.environment:checking '/home/sash/smart_cane_ws/install/smart_cane_system/bin'
+[11.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(smart_cane_system)
+[11.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/package.ps1'
+[11.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/package.dsv'
+[11.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/package.sh'
+[11.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/package.bash'
+[11.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/package.zsh'
+[11.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sash/smart_cane_ws/install/smart_cane_system/share/colcon-core/packages/smart_cane_system)
+[11.042s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.043s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.044s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.044s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.101s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.101s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.102s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[11.102s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.103s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sash/smart_cane_ws/install/local_setup.ps1'
+[11.117s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sash/smart_cane_ws/install/_local_setup_util_ps1.py'
+[11.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sash/smart_cane_ws/install/setup.ps1'
+[11.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sash/smart_cane_ws/install/local_setup.sh'
+[11.138s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sash/smart_cane_ws/install/_local_setup_util_sh.py'
+[11.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sash/smart_cane_ws/install/setup.sh'
+[11.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sash/smart_cane_ws/install/local_setup.bash'
+[11.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sash/smart_cane_ws/install/setup.bash'
+[11.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sash/smart_cane_ws/install/local_setup.zsh'
+[11.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sash/smart_cane_ws/install/setup.zsh'

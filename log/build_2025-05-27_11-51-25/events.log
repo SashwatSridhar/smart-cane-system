@@ -1,0 +1,229 @@
+[0.000000] (-) TimerEvent: {}
+[0.001331] (smart_cane_interfaces) JobQueued: {'identifier': 'smart_cane_interfaces', 'dependencies': OrderedDict()}
+[0.001707] (smart_cane_system) JobQueued: {'identifier': 'smart_cane_system', 'dependencies': OrderedDict([('smart_cane_interfaces', '/home/sash/smart_cane_ws/install/smart_cane_interfaces')])}
+[0.001866] (smart_cane_interfaces) JobStarted: {'identifier': 'smart_cane_interfaces'}
+[0.011757] (smart_cane_interfaces) JobProgress: {'identifier': 'smart_cane_interfaces', 'progress': 'cmake'}
+[0.012747] (smart_cane_interfaces) JobProgress: {'identifier': 'smart_cane_interfaces', 'progress': 'build'}
+[0.014751] (smart_cane_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sash/smart_cane_ws/build/smart_cane_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/sash/smart_cane_ws/build/smart_cane_interfaces', 'env': OrderedDict([('USER', 'sash'), ('GIT_ASKPASS', '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sash'), ('OLDPWD', '/home/sash/smart_cane_ws/src/smart_cane_system/smart_cane_system'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f676d3a7-0051-4da4-b623-d6367b50fb35.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sash/smart_cane_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sash'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/520_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Sash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sash/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-91b46a9bf0008868.txt'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cd77fc1bd3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sash/smart_cane_ws/install/smart_cane_interfaces:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sash/smart_cane_ws/build/smart_cane_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sash/smart_cane_ws/install/smart_cane_interfaces:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.098197] (-) TimerEvent: {}
+[0.199285] (-) TimerEvent: {}
+[0.300828] (-) TimerEvent: {}
+[0.401734] (-) TimerEvent: {}
+[0.502546] (-) TimerEvent: {}
+[0.603869] (-) TimerEvent: {}
+[0.704955] (-) TimerEvent: {}
+[1.141870] (-) TimerEvent: {}
+[1.242915] (-) TimerEvent: {}
+[1.352636] (-) TimerEvent: {}
+[1.453443] (-) TimerEvent: {}
+[1.554287] (-) TimerEvent: {}
+[1.603301] (smart_cane_interfaces) StdoutLine: {'line': b'[ 13%] Built target smart_cane_interfaces__rosidl_generator_c\n'}
+[1.645867] (smart_cane_interfaces) StdoutLine: {'line': b'[ 16%] Built target smart_cane_interfaces__cpp\n'}
+[1.654449] (-) TimerEvent: {}
+[1.757697] (-) TimerEvent: {}
+[1.821861] (smart_cane_interfaces) StdoutLine: {'line': b'[ 30%] Built target smart_cane_interfaces__rosidl_typesupport_c\n'}
+[1.857792] (-) TimerEvent: {}
+[1.875981] (smart_cane_interfaces) StdoutLine: {'line': b'[ 44%] Built target smart_cane_interfaces__rosidl_typesupport_cpp\n'}
+[1.907971] (smart_cane_interfaces) StdoutLine: {'line': b'[ 58%] Built target smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.957967] (-) TimerEvent: {}
+[2.058491] (-) TimerEvent: {}
+[2.159020] (-) TimerEvent: {}
+[2.259445] (-) TimerEvent: {}
+[2.360194] (-) TimerEvent: {}
+[2.431768] (smart_cane_interfaces) StdoutLine: {'line': b'[ 72%] Built target smart_cane_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.460488] (-) TimerEvent: {}
+[2.513827] (smart_cane_interfaces) StdoutLine: {'line': b'[ 86%] Built target smart_cane_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.013302] (-) TimerEvent: {}
+[3.105129] (smart_cane_interfaces) StdoutLine: {'line': b'[100%] Built target smart_cane_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.113459] (-) TimerEvent: {}
+[3.147535] (smart_cane_interfaces) StdoutLine: {'line': b'[100%] Built target smart_cane_interfaces\n'}
+[3.165071] (smart_cane_interfaces) CommandEnded: {'returncode': 0}
+[3.166391] (smart_cane_interfaces) JobProgress: {'identifier': 'smart_cane_interfaces', 'progress': 'install'}
+[3.175946] (smart_cane_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sash/smart_cane_ws/build/smart_cane_interfaces'], 'cwd': '/home/sash/smart_cane_ws/build/smart_cane_interfaces', 'env': OrderedDict([('USER', 'sash'), ('GIT_ASKPASS', '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sash'), ('OLDPWD', '/home/sash/smart_cane_ws/src/smart_cane_system/smart_cane_system'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f676d3a7-0051-4da4-b623-d6367b50fb35.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sash/smart_cane_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sash'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/520_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Sash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sash/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-91b46a9bf0008868.txt'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cd77fc1bd3.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sash/smart_cane_ws/install/smart_cane_interfaces:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sash/smart_cane_ws/build/smart_cane_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/sash/smart_cane_ws/install/smart_cane_interfaces:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[3.187561] (smart_cane_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.188183] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/ament_index/resource_index/rosidl_interfaces/smart_cane_interfaces\n'}
+[3.188548] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces\n'}
+[3.189149] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg\n'}
+[3.189397] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detection_result.h\n'}
+[3.189623] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/feedback_command.h\n'}
+[3.189862] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail\n'}
+[3.190097] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.h\n'}
+[3.190382] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__struct.h\n'}
+[3.190677] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__functions.h\n'}
+[3.190919] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.h\n'}
+[3.191142] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__struct.h\n'}
+[3.191697] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__functions.h\n'}
+[3.191968] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__functions.c\n'}
+[3.192235] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__struct.h\n'}
+[3.192502] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__functions.c\n'}
+[3.192761] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.h\n'}
+[3.193033] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__functions.h\n'}
+[3.193289] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__functions.c\n'}
+[3.193506] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.193743] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/ultrasonic_data.h\n'}
+[3.193970] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/library_path.sh\n'}
+[3.194663] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/library_path.dsv\n'}
+[3.194888] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_generator_c.so\n'}
+[3.195135] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces\n'}
+[3.195366] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg\n'}
+[3.195603] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.195818] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail\n'}
+[3.196359] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_c.h\n'}
+[3.196669] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_fastrtps_c.h\n'}
+[3.197295] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_fastrtps_c.h\n'}
+[3.197829] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.198068] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces\n'}
+[3.198350] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg\n'}
+[3.198637] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/feedback_command.hpp\n'}
+[3.199058] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail\n'}
+[3.199331] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__traits.hpp\n'}
+[3.199597] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.hpp\n'}
+[3.199860] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__struct.hpp\n'}
+[3.200122] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__traits.hpp\n'}
+[3.200393] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__builder.hpp\n'}
+[3.200823] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.hpp\n'}
+[3.201097] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.hpp\n'}
+[3.201505] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__builder.hpp\n'}
+[3.201782] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__struct.hpp\n'}
+[3.202020] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__builder.hpp\n'}
+[3.202238] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__traits.hpp\n'}
+[3.202498] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__struct.hpp\n'}
+[3.202746] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.203249] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detection_result.hpp\n'}
+[3.203502] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/ultrasonic_data.hpp\n'}
+[3.204042] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces\n'}
+[3.204323] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg\n'}
+[3.204583] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail\n'}
+[3.204805] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.205030] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/dds_fastrtps\n'}
+[3.205262] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.205486] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.205734] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.205958] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.206181] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces\n'}
+[3.206400] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg\n'}
+[3.206614] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.206834] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail\n'}
+[3.207054] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_introspection_c.h\n'}
+[3.207943] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.c\n'}
+[3.208183] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.c\n'}
+[3.208684] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_introspection_c.h\n'}
+[3.209306] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.c\n'}
+[3.210002] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_c.h\n'}
+[3.210420] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.210674] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_c.so\n'}
+[3.211685] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces\n'}
+[3.211933] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg\n'}
+[3.212407] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail\n'}
+[3.212627] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.cpp\n'}
+[3.212846] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.213382] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.cpp\n'}
+[3.213670] (-) TimerEvent: {}
+[3.214034] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.214487] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.214753] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.cpp\n'}
+[3.214986] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.215214] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.215490] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/UltrasonicData.idl\n'}
+[3.215865] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/DetectionResult.idl\n'}
+[3.216089] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/FeedbackCommand.idl\n'}
+[3.216445] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/UltrasonicData.msg\n'}
+[3.216889] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/DetectionResult.msg\n'}
+[3.217118] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/FeedbackCommand.msg\n'}
+[3.217610] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/ament_index/resource_index/package_run_dependencies/smart_cane_interfaces\n'}
+[3.217830] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/ament_index/resource_index/parent_prefix_path/smart_cane_interfaces\n'}
+[3.218047] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/ament_prefix_path.sh\n'}
+[3.218262] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.218499] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/path.sh\n'}
+[3.219049] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/path.dsv\n'}
+[3.219268] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.bash\n'}
+[3.219497] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.sh\n'}
+[3.220056] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.zsh\n'}
+[3.220587] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.dsv\n'}
+[3.220865] (smart_cane_interfaces) StdoutLine: {'line': b'-- Installing: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.dsv\n'}
+[3.221210] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/ament_index/resource_index/packages/smart_cane_interfaces\n'}
+[3.222226] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.222807] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.223257] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.223496] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.223714] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.223930] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.224688] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.224951] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.225167] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.225381] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.225594] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.225807] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.226023] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.226235] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.226447] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.227011] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.227235] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.227453] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.227682] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.227898] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.228113] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.228327] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.228547] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfacesConfig.cmake\n'}
+[3.228760] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfacesConfig-version.cmake\n'}
+[3.228975] (smart_cane_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/sash/smart_cane_ws/install/smart_cane_interfaces/share/smart_cane_interfaces/package.xml\n'}
+[3.229376] (smart_cane_interfaces) CommandEnded: {'returncode': 0}
+[3.313974] (-) TimerEvent: {}
+[3.414978] (-) TimerEvent: {}
+[3.516356] (-) TimerEvent: {}
+[3.617628] (-) TimerEvent: {}
+[3.649387] (smart_cane_interfaces) JobEnded: {'identifier': 'smart_cane_interfaces', 'rc': 0}
+[3.654033] (smart_cane_system) JobStarted: {'identifier': 'smart_cane_system'}
+[3.717768] (-) TimerEvent: {}
+[3.818212] (-) TimerEvent: {}
+[3.918679] (-) TimerEvent: {}
+[4.020024] (-) TimerEvent: {}
+[4.120438] (-) TimerEvent: {}
+[4.223747] (-) TimerEvent: {}
+[4.324131] (-) TimerEvent: {}
+[4.424757] (-) TimerEvent: {}
+[4.525121] (-) TimerEvent: {}
+[4.626096] (-) TimerEvent: {}
+[4.726796] (-) TimerEvent: {}
+[4.827229] (-) TimerEvent: {}
+[4.927637] (-) TimerEvent: {}
+[5.028075] (-) TimerEvent: {}
+[5.128492] (-) TimerEvent: {}
+[5.230292] (-) TimerEvent: {}
+[5.330778] (-) TimerEvent: {}
+[5.431216] (-) TimerEvent: {}
+[5.517062] (smart_cane_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/smart_cane_system', 'build', '--build-base', '/home/sash/smart_cane_ws/build/smart_cane_system/build', 'install', '--record', '/home/sash/smart_cane_ws/build/smart_cane_system/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sash/smart_cane_ws/src/smart_cane_system', 'env': {'USER': 'sash', 'GIT_ASKPASS': '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/sash/smart_cane_ws/install/smart_cane_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sash', 'OLDPWD': '/home/sash/smart_cane_ws/src/smart_cane_system/smart_cane_system', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f676d3a7-0051-4da4-b623-d6367b50fb35.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/sash/smart_cane_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sash', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/520_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Sash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sash/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-91b46a9bf0008868.txt', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cd77fc1bd3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sash/smart_cane_ws/install/smart_cane_interfaces:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sash/smart_cane_ws/build/smart_cane_system', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/sash/smart_cane_ws/install/smart_cane_interfaces', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[5.531347] (-) TimerEvent: {}
+[5.631802] (-) TimerEvent: {}
+[5.732297] (-) TimerEvent: {}
+[5.832753] (-) TimerEvent: {}
+[5.933156] (-) TimerEvent: {}
+[6.033751] (-) TimerEvent: {}
+[6.134334] (-) TimerEvent: {}
+[6.234789] (-) TimerEvent: {}
+[6.248566] (smart_cane_system) StdoutLine: {'line': b'running egg_info\n'}
+[6.249871] (smart_cane_system) StdoutLine: {'line': b'writing ../../build/smart_cane_system/smart_cane_system.egg-info/PKG-INFO\n'}
+[6.250229] (smart_cane_system) StdoutLine: {'line': b'writing dependency_links to ../../build/smart_cane_system/smart_cane_system.egg-info/dependency_links.txt\n'}
+[6.250860] (smart_cane_system) StdoutLine: {'line': b'writing entry points to ../../build/smart_cane_system/smart_cane_system.egg-info/entry_points.txt\n'}
+[6.251151] (smart_cane_system) StdoutLine: {'line': b'writing requirements to ../../build/smart_cane_system/smart_cane_system.egg-info/requires.txt\n'}
+[6.251390] (smart_cane_system) StdoutLine: {'line': b'writing top-level names to ../../build/smart_cane_system/smart_cane_system.egg-info/top_level.txt\n'}
+[6.255842] (smart_cane_system) StdoutLine: {'line': b"reading manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'\n"}
+[6.258090] (smart_cane_system) StdoutLine: {'line': b"writing manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'\n"}
+[6.258497] (smart_cane_system) StdoutLine: {'line': b'running build\n'}
+[6.258692] (smart_cane_system) StdoutLine: {'line': b'running build_py\n'}
+[6.259244] (smart_cane_system) StdoutLine: {'line': b'running install\n'}
+[6.259835] (smart_cane_system) StdoutLine: {'line': b'running install_lib\n'}
+[6.261736] (smart_cane_system) StdoutLine: {'line': b'running install_data\n'}
+[6.262866] (smart_cane_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.265293] (smart_cane_system) StdoutLine: {'line': b"removing '/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.265895] (smart_cane_system) StdoutLine: {'line': b'Copying ../../build/smart_cane_system/smart_cane_system.egg-info to /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system-0.0.0-py3.10.egg-info\n'}
+[6.267392] (smart_cane_system) StdoutLine: {'line': b'running install_scripts\n'}
+[6.317843] (smart_cane_system) StdoutLine: {'line': b'Installing camera_node script to /home/sash/smart_cane_ws/install/smart_cane_system/lib/smart_cane_system\n'}
+[6.318319] (smart_cane_system) StdoutLine: {'line': b'Installing detection_node script to /home/sash/smart_cane_ws/install/smart_cane_system/lib/smart_cane_system\n'}
+[6.318694] (smart_cane_system) StdoutLine: {'line': b'Installing feedback_node script to /home/sash/smart_cane_ws/install/smart_cane_system/lib/smart_cane_system\n'}
+[6.318982] (smart_cane_system) StdoutLine: {'line': b'Installing ultrasonic_node script to /home/sash/smart_cane_ws/install/smart_cane_system/lib/smart_cane_system\n'}
+[6.319500] (smart_cane_system) StdoutLine: {'line': b"writing list of installed files to '/home/sash/smart_cane_ws/build/smart_cane_system/install.log'\n"}
+[6.335009] (-) TimerEvent: {}
+[6.392646] (smart_cane_system) CommandEnded: {'returncode': 0}
+[6.410288] (smart_cane_system) JobEnded: {'identifier': 'smart_cane_system', 'rc': 0}
+[6.412226] (-) EventReactorShutdown: {}

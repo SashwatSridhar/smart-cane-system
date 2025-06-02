@@ -1,0 +1,33 @@
+[3.486s] Invoking command in '/home/sash/smart_cane_ws/src/smart_cane_system': PYTHONPATH=/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/sash/smart_cane_ws/build/smart_cane_system/build install --record /home/sash/smart_cane_ws/build/smart_cane_system/install.log --single-version-externally-managed install_data
+[3.956s] running egg_info
+[3.957s] creating ../../build/smart_cane_system/smart_cane_system.egg-info
+[3.958s] writing ../../build/smart_cane_system/smart_cane_system.egg-info/PKG-INFO
+[3.958s] writing dependency_links to ../../build/smart_cane_system/smart_cane_system.egg-info/dependency_links.txt
+[3.959s] writing entry points to ../../build/smart_cane_system/smart_cane_system.egg-info/entry_points.txt
+[3.959s] writing requirements to ../../build/smart_cane_system/smart_cane_system.egg-info/requires.txt
+[3.959s] writing top-level names to ../../build/smart_cane_system/smart_cane_system.egg-info/top_level.txt
+[3.959s] writing manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'
+[3.962s] reading manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'
+[3.963s] writing manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'
+[3.963s] running build
+[3.964s] running build_py
+[3.964s] creating /home/sash/smart_cane_ws/build/smart_cane_system/build
+[3.964s] creating /home/sash/smart_cane_ws/build/smart_cane_system/build/lib
+[3.994s] creating /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system
+[4.009s] copying smart_cane_system/__init__.py -> /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system
+[4.010s] running install
+[4.012s] running install_lib
+[4.014s] creating /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system
+[4.015s] copying /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system/__init__.py -> /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system
+[4.016s] byte-compiling /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system/__init__.py to __init__.cpython-310.pyc
+[4.018s] running install_data
+[4.018s] creating /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index
+[4.019s] creating /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index/resource_index
+[4.019s] creating /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index/resource_index/packages
+[4.020s] copying resource/smart_cane_system -> /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index/resource_index/packages
+[4.021s] copying package.xml -> /home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system
+[4.021s] running install_egg_info
+[4.028s] Copying ../../build/smart_cane_system/smart_cane_system.egg-info to /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system-0.0.0-py3.10.egg-info
+[4.031s] running install_scripts
+[4.096s] writing list of installed files to '/home/sash/smart_cane_ws/build/smart_cane_system/install.log'
+[4.150s] Invoked command in '/home/sash/smart_cane_ws/src/smart_cane_system' returned '0': PYTHONPATH=/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/sash/smart_cane_ws/build/smart_cane_system/build install --record /home/sash/smart_cane_ws/build/smart_cane_system/install.log --single-version-externally-managed install_data

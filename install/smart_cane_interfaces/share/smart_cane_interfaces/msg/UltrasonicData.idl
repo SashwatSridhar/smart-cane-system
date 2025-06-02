@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from smart_cane_interfaces/msg/UltrasonicData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module smart_cane_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Ultrasonic sensor data message")
+    struct UltrasonicData {
+      std_msgs::msg::Header header;
+
+      float distance_cm;
+
+      float confidence;
+
+      boolean obstacle_detected;
+    };
+  };
+};

@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (smart_cane_system) JobQueued: {'identifier': 'smart_cane_system', 'dependencies': OrderedDict()}
+[0.000525] (smart_cane_system) JobStarted: {'identifier': 'smart_cane_system'}
+[0.098526] (-) TimerEvent: {}
+[0.199257] (-) TimerEvent: {}
+[0.299731] (-) TimerEvent: {}
+[0.400122] (-) TimerEvent: {}
+[0.500571] (-) TimerEvent: {}
+[0.644488] (-) TimerEvent: {}
+[0.745353] (-) TimerEvent: {}
+[0.845844] (-) TimerEvent: {}
+[0.946312] (-) TimerEvent: {}
+[1.046739] (-) TimerEvent: {}
+[1.147397] (-) TimerEvent: {}
+[1.248330] (-) TimerEvent: {}
+[1.349232] (-) TimerEvent: {}
+[1.450275] (-) TimerEvent: {}
+[1.551822] (-) TimerEvent: {}
+[1.652959] (-) TimerEvent: {}
+[1.754117] (-) TimerEvent: {}
+[1.855306] (-) TimerEvent: {}
+[1.956775] (-) TimerEvent: {}
+[2.057957] (-) TimerEvent: {}
+[2.158843] (-) TimerEvent: {}
+[2.259874] (-) TimerEvent: {}
+[2.360867] (-) TimerEvent: {}
+[2.461878] (-) TimerEvent: {}
+[2.562831] (-) TimerEvent: {}
+[2.663711] (-) TimerEvent: {}
+[2.764510] (-) TimerEvent: {}
+[2.865601] (-) TimerEvent: {}
+[2.966520] (-) TimerEvent: {}
+[3.067516] (-) TimerEvent: {}
+[3.168656] (-) TimerEvent: {}
+[3.269684] (-) TimerEvent: {}
+[3.370910] (-) TimerEvent: {}
+[3.472198] (-) TimerEvent: {}
+[3.476512] (smart_cane_system) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/smart_cane_system', 'build', '--build-base', '/home/sash/smart_cane_ws/build/smart_cane_system/build', 'install', '--record', '/home/sash/smart_cane_ws/build/smart_cane_system/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sash/smart_cane_ws/src/smart_cane_system', 'env': {'USER': 'sash', 'GIT_ASKPASS': '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/sash', 'OLDPWD': '/home/sash/smart_cane_ws/src', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-f676d3a7-0051-4da4-b623-d6367b50fb35.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sash', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/520_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/sash/.vscode-server/bin/848b80aeb52026648a8ff9f7c45a9b0a80641e2e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files/Python311/Scripts/:/mnt/c/Program Files/Python311/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Sash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sash/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/sash/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-91b46a9bf0008868.txt', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cd77fc1bd3.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sash/smart_cane_ws/build/smart_cane_system', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:'}, 'shell': False}
+[3.572382] (-) TimerEvent: {}
+[3.672872] (-) TimerEvent: {}
+[3.773344] (-) TimerEvent: {}
+[3.873943] (-) TimerEvent: {}
+[3.956565] (smart_cane_system) StdoutLine: {'line': b'running egg_info\n'}
+[3.957835] (smart_cane_system) StdoutLine: {'line': b'creating ../../build/smart_cane_system/smart_cane_system.egg-info\n'}
+[3.958283] (smart_cane_system) StdoutLine: {'line': b'writing ../../build/smart_cane_system/smart_cane_system.egg-info/PKG-INFO\n'}
+[3.958664] (smart_cane_system) StdoutLine: {'line': b'writing dependency_links to ../../build/smart_cane_system/smart_cane_system.egg-info/dependency_links.txt\n'}
+[3.958954] (smart_cane_system) StdoutLine: {'line': b'writing entry points to ../../build/smart_cane_system/smart_cane_system.egg-info/entry_points.txt\n'}
+[3.959428] (smart_cane_system) StdoutLine: {'line': b'writing requirements to ../../build/smart_cane_system/smart_cane_system.egg-info/requires.txt\n'}
+[3.959621] (smart_cane_system) StdoutLine: {'line': b'writing top-level names to ../../build/smart_cane_system/smart_cane_system.egg-info/top_level.txt\n'}
+[3.959916] (smart_cane_system) StdoutLine: {'line': b"writing manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'\n"}
+[3.962303] (smart_cane_system) StdoutLine: {'line': b"reading manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'\n"}
+[3.963174] (smart_cane_system) StdoutLine: {'line': b"writing manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'\n"}
+[3.963568] (smart_cane_system) StdoutLine: {'line': b'running build\n'}
+[3.963939] (smart_cane_system) StdoutLine: {'line': b'running build_py\n'}
+[3.964158] (smart_cane_system) StdoutLine: {'line': b'creating /home/sash/smart_cane_ws/build/smart_cane_system/build\n'}
+[3.964251] (smart_cane_system) StdoutLine: {'line': b'creating /home/sash/smart_cane_ws/build/smart_cane_system/build/lib\n'}
+[3.974127] (-) TimerEvent: {}
+[3.994185] (smart_cane_system) StdoutLine: {'line': b'creating /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system\n'}
+[4.009478] (smart_cane_system) StdoutLine: {'line': b'copying smart_cane_system/__init__.py -> /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system\n'}
+[4.010699] (smart_cane_system) StdoutLine: {'line': b'running install\n'}
+[4.011967] (smart_cane_system) StdoutLine: {'line': b'running install_lib\n'}
+[4.014249] (smart_cane_system) StdoutLine: {'line': b'creating /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system\n'}
+[4.014898] (smart_cane_system) StdoutLine: {'line': b'copying /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system/__init__.py -> /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system\n'}
+[4.016782] (smart_cane_system) StdoutLine: {'line': b'byte-compiling /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system/__init__.py to __init__.cpython-310.pyc\n'}
+[4.017886] (smart_cane_system) StdoutLine: {'line': b'running install_data\n'}
+[4.018480] (smart_cane_system) StdoutLine: {'line': b'creating /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index\n'}
+[4.018967] (smart_cane_system) StdoutLine: {'line': b'creating /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index/resource_index\n'}
+[4.019626] (smart_cane_system) StdoutLine: {'line': b'creating /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index/resource_index/packages\n'}
+[4.020191] (smart_cane_system) StdoutLine: {'line': b'copying resource/smart_cane_system -> /home/sash/smart_cane_ws/install/smart_cane_system/share/ament_index/resource_index/packages\n'}
+[4.020784] (smart_cane_system) StdoutLine: {'line': b'copying package.xml -> /home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system\n'}
+[4.021543] (smart_cane_system) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.028312] (smart_cane_system) StdoutLine: {'line': b'Copying ../../build/smart_cane_system/smart_cane_system.egg-info to /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system-0.0.0-py3.10.egg-info\n'}
+[4.031734] (smart_cane_system) StdoutLine: {'line': b'running install_scripts\n'}
+[4.074413] (-) TimerEvent: {}
+[4.096287] (smart_cane_system) StdoutLine: {'line': b"writing list of installed files to '/home/sash/smart_cane_ws/build/smart_cane_system/install.log'\n"}
+[4.149919] (smart_cane_system) CommandEnded: {'returncode': 0}
+[4.174789] (-) TimerEvent: {}
+[4.275768] (-) TimerEvent: {}
+[4.376993] (-) TimerEvent: {}
+[4.424397] (smart_cane_system) JobEnded: {'identifier': 'smart_cane_system', 'rc': 0}
+[4.430805] (-) EventReactorShutdown: {}

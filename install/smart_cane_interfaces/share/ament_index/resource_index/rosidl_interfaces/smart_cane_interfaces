@@ -1,0 +1,6 @@
+msg/DetectionResult.idl
+msg/DetectionResult.msg
+msg/FeedbackCommand.idl
+msg/FeedbackCommand.msg
+msg/UltrasonicData.idl
+msg/UltrasonicData.msg

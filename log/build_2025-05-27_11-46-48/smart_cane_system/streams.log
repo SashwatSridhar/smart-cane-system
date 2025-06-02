@@ -1,0 +1,34 @@
+[1.072s] Invoking command in '/home/sash/smart_cane_ws/src/smart_cane_system': PYTHONPATH=/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/sash/smart_cane_ws/build/smart_cane_system/build install --record /home/sash/smart_cane_ws/build/smart_cane_system/install.log --single-version-externally-managed install_data
+[1.415s] running egg_info
+[1.417s] writing ../../build/smart_cane_system/smart_cane_system.egg-info/PKG-INFO
+[1.417s] writing dependency_links to ../../build/smart_cane_system/smart_cane_system.egg-info/dependency_links.txt
+[1.418s] writing entry points to ../../build/smart_cane_system/smart_cane_system.egg-info/entry_points.txt
+[1.418s] writing requirements to ../../build/smart_cane_system/smart_cane_system.egg-info/requires.txt
+[1.419s] writing top-level names to ../../build/smart_cane_system/smart_cane_system.egg-info/top_level.txt
+[1.422s] reading manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'
+[1.424s] writing manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'
+[1.424s] running build
+[1.425s] running build_py
+[1.425s] copying smart_cane_system/camera_node.py -> /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system
+[1.426s] copying smart_cane_system/ultrasonic_node.py -> /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system
+[1.426s] copying smart_cane_system/detection_node.py -> /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system
+[1.426s] copying smart_cane_system/feedback_node.py -> /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system
+[1.426s] running install
+[1.427s] running install_lib
+[1.428s] copying /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system/camera_node.py -> /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system
+[1.428s] copying /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system/ultrasonic_node.py -> /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system
+[1.429s] copying /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system/detection_node.py -> /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system
+[1.429s] copying /home/sash/smart_cane_ws/build/smart_cane_system/build/lib/smart_cane_system/feedback_node.py -> /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system
+[1.429s] byte-compiling /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system/camera_node.py to camera_node.cpython-310.pyc
+[1.430s] byte-compiling /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system/ultrasonic_node.py to ultrasonic_node.cpython-310.pyc
+[1.430s] byte-compiling /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system/detection_node.py to detection_node.cpython-310.pyc
+[1.431s] byte-compiling /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system/feedback_node.py to feedback_node.cpython-310.pyc
+[1.431s] running install_data
+[1.431s] copying package.xml -> /home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system
+[1.432s] creating /home/sash/smart_cane_ws/install/smart_cane_system/share/smart_cane_system/launch
+[1.432s] running install_egg_info
+[1.435s] removing '/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system-0.0.0-py3.10.egg-info' (and everything under it)
+[1.436s] Copying ../../build/smart_cane_system/smart_cane_system.egg-info to /home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages/smart_cane_system-0.0.0-py3.10.egg-info
+[1.437s] running install_scripts
+[1.464s] writing list of installed files to '/home/sash/smart_cane_ws/build/smart_cane_system/install.log'
+[1.519s] Invoked command in '/home/sash/smart_cane_ws/src/smart_cane_system' returned '0': PYTHONPATH=/home/sash/smart_cane_ws/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/sash/smart_cane_ws/build/smart_cane_system/build install --record /home/sash/smart_cane_ws/build/smart_cane_system/install.log --single-version-externally-managed install_data

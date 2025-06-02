@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from smart_cane_interfaces/msg/FeedbackCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module smart_cane_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Feedback system commands")
+    struct FeedbackCommand {
+      std_msgs::msg::Header header;
+
+      string message_text;
+
+      boolean vibration_enabled;
+
+      float vibration_intensity;
+
+      boolean audio_enabled;
+    };
+  };
+};

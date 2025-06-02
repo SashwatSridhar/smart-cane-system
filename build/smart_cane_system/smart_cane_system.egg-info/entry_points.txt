@@ -1,0 +1,6 @@
+[console_scripts]
+camera_node = smart_cane_system.camera_node:main
+detection_node = smart_cane_system.detection_node:main
+feedback_node = smart_cane_system.feedback_node:main
+ultrasonic_node = smart_cane_system.ultrasonic_node:main
+

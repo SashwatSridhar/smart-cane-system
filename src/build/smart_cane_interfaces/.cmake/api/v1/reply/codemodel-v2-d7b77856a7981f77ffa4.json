@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-32b252e1bbe74239f4b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "smart_cane_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces-01503ebc3e2a99a58085.json",
+					"name" : "smart_cane_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__cpp-f0da0a2bf1708d3bc8a4.json",
+					"name" : "smart_cane_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__rosidl_generator_c-9974f6e83f8c8dd406b7.json",
+					"name" : "smart_cane_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__rosidl_typesupport_c-acb76777ab8be61293b8.json",
+					"name" : "smart_cane_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__rosidl_typesupport_cpp-29789687f2cb8f84e9d3.json",
+					"name" : "smart_cane_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__rosidl_typesupport_fastrtps_c-0c947415e0c7eb481fcd.json",
+					"name" : "smart_cane_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp-1b41939d2d31fde50edf.json",
+					"name" : "smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__rosidl_typesupport_introspection_c-05352d37cb9fb0b1e67e.json",
+					"name" : "smart_cane_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces__rosidl_typesupport_introspection_cpp-8cb03759a786627b096e.json",
+					"name" : "smart_cane_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "smart_cane_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-smart_cane_interfaces_uninstall-92217a92048233f68038.json",
+					"name" : "smart_cane_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c4571e6855d7ffce2eb8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sash/smart_cane_ws/src/build/smart_cane_interfaces",
+		"source" : "/home/sash/smart_cane_ws/src/smart_cane_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

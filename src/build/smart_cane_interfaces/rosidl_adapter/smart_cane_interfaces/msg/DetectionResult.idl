@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from smart_cane_interfaces/msg/DetectionResult.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module smart_cane_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Object detection results")
+    struct DetectionResult {
+      std_msgs::msg::Header header;
+
+      sequence<string> detected_objects;
+
+      sequence<geometry_msgs::msg::Point> object_positions;
+
+      sequence<float> confidence_scores;
+    };
+  };
+};

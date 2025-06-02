@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/detection_result__type_support_c.cpp.o"
+  "CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/detection_result__type_support_c.cpp.o.d"
+  "CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/feedback_command__type_support_c.cpp.o"
+  "CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/feedback_command__type_support_c.cpp.o.d"
+  "CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support_c.cpp.o"
+  "CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support_c.cpp.o.d"
+  "libsmart_cane_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libsmart_cane_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/detection_result__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/feedback_command__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

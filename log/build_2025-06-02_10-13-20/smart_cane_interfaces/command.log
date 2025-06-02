@@ -1,0 +1,4 @@
+Invoking command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sash/smart_cane_ws/build/smart_cane_interfaces -- -j4 -l4
+Invoked command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sash/smart_cane_ws/build/smart_cane_interfaces -- -j4 -l4
+Invoking command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sash/smart_cane_ws/build/smart_cane_interfaces
+Invoked command in '/home/sash/smart_cane_ws/build/smart_cane_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sash/smart_cane_ws/build/smart_cane_interfaces

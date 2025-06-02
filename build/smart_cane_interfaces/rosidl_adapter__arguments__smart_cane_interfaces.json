@@ -1,0 +1,8 @@
+{
+  "package_name": "smart_cane_interfaces",
+  "non_idl_tuples": [
+    "/home/sash/smart_cane_ws/src/smart_cane_interfaces:msg/UltrasonicData.msg",
+    "/home/sash/smart_cane_ws/src/smart_cane_interfaces:msg/DetectionResult.msg",
+    "/home/sash/smart_cane_ws/src/smart_cane_interfaces:msg/FeedbackCommand.msg"
+  ]
+}

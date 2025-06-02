@@ -1,0 +1,214 @@
+[0.265s] Invoking command in '/home/sash/smart_cane_ws/src/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake /home/sash/smart_cane_ws/src/smart_cane_interfaces -DCMAKE_INSTALL_PREFIX=/home/sash/smart_cane_ws/src/install/smart_cane_interfaces
+[2.327s] -- The C compiler identification is GNU 11.4.0
+[3.435s] -- The CXX compiler identification is GNU 11.4.0
+[3.909s] -- Detecting C compiler ABI info
+[4.345s] -- Detecting C compiler ABI info - done
+[4.370s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.375s] -- Detecting C compile features
+[4.408s] -- Detecting C compile features - done
+[4.421s] -- Detecting CXX compiler ABI info
+[4.754s] -- Detecting CXX compiler ABI info - done
+[4.778s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.779s] -- Detecting CXX compile features
+[4.780s] -- Detecting CXX compile features - done
+[4.984s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.635s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.286s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[6.858s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.895s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.950s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.383s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.658s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.731s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.095s] -- Added test 'lint_cmake' to check CMake code style
+[11.133s] -- Added test 'xmllint' to check XML markup files
+[11.172s] -- Configuring done
+[11.315s] -- Generating done
+[11.338s] -- Build files have been written to: /home/sash/smart_cane_ws/src/build/smart_cane_interfaces
+[11.434s] Invoked command in '/home/sash/smart_cane_ws/src/build/smart_cane_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake /home/sash/smart_cane_ws/src/smart_cane_interfaces -DCMAKE_INSTALL_PREFIX=/home/sash/smart_cane_ws/src/install/smart_cane_interfaces
+[11.442s] Invoking command in '/home/sash/smart_cane_ws/src/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --build /home/sash/smart_cane_ws/src/build/smart_cane_interfaces -- -j4 -l4
+[11.700s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.766s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.741s] [  5%] Built target smart_cane_interfaces__cpp
+[13.780s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.816s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.827s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[13.849s] [ 16%] [32mBuilding C object CMakeFiles/smart_cane_interfaces__rosidl_generator_c.dir/rosidl_generator_c/smart_cane_interfaces/msg/detail/ultrasonic_data__functions.c.o[0m
+[15.280s] [ 19%] [32mBuilding C object CMakeFiles/smart_cane_interfaces__rosidl_generator_c.dir/rosidl_generator_c/smart_cane_interfaces/msg/detail/detection_result__functions.c.o[0m
+[15.972s] [ 22%] [32mBuilding C object CMakeFiles/smart_cane_interfaces__rosidl_generator_c.dir/rosidl_generator_c/smart_cane_interfaces/msg/detail/feedback_command__functions.c.o[0m
+[15.981s] [ 25%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smart_cane_interfaces/msg/ultrasonic_data__type_support.cpp.o[0m
+[16.274s] [ 27%] [32m[1mLinking C shared library libsmart_cane_interfaces__rosidl_generator_c.so[0m
+[16.374s] [ 30%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.cpp.o[0m
+[16.479s] [ 33%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smart_cane_interfaces/msg/detail/dds_fastrtps/ultrasonic_data__type_support.cpp.o[0m
+[16.644s] [ 33%] Built target smart_cane_interfaces__rosidl_generator_c
+[16.681s] [ 36%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smart_cane_interfaces/msg/detail/dds_fastrtps/detection_result__type_support.cpp.o[0m
+[19.373s] [ 38%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smart_cane_interfaces/msg/detection_result__type_support.cpp.o[0m
+[19.841s] [ 41%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smart_cane_interfaces/msg/detail/detection_result__type_support.cpp.o[0m
+[20.291s] [ 44%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smart_cane_interfaces/msg/detail/feedback_command__type_support.cpp.o[0m
+[20.932s] [ 47%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smart_cane_interfaces/msg/detail/dds_fastrtps/feedback_command__type_support.cpp.o[0m
+[20.978s] [ 50%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smart_cane_interfaces/msg/feedback_command__type_support.cpp.o[0m
+[22.803s] [ 52%] [32m[1mLinking CXX shared library libsmart_cane_interfaces__rosidl_typesupport_cpp.so[0m
+[22.960s] [ 55%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.094s] [ 58%] [32m[1mLinking CXX shared library libsmart_cane_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[23.342s] [ 58%] Built target smart_cane_interfaces__rosidl_typesupport_cpp
+[23.389s] [ 61%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[24.039s] [ 61%] Built target smart_cane_interfaces__rosidl_typesupport_introspection_cpp
+[24.065s] [ 63%] [32m[1mLinking CXX shared library libsmart_cane_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.126s] [ 66%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[24.950s] [ 66%] Built target smart_cane_interfaces__rosidl_typesupport_fastrtps_cpp
+[25.627s] [ 69%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support_c.cpp.o[0m
+[25.648s] [ 72%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/detection_result__type_support_c.cpp.o[0m
+[25.887s] [ 75%] [32mBuilding C object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.c.o[0m
+[25.956s] [ 77%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/smart_cane_interfaces/msg/ultrasonic_data__type_support.cpp.o[0m
+[26.119s] [ 80%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/smart_cane_interfaces/msg/detection_result__type_support.cpp.o[0m
+[26.159s] [ 83%] [32mBuilding C object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smart_cane_interfaces/msg/detail/detection_result__type_support.c.o[0m
+[26.284s] [ 86%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/smart_cane_interfaces/msg/feedback_command__type_support.cpp.o[0m
+[26.448s] [ 88%] [32m[1mLinking CXX shared library libsmart_cane_interfaces__rosidl_typesupport_c.so[0m
+[26.570s] [ 91%] [32mBuilding C object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smart_cane_interfaces/msg/detail/feedback_command__type_support.c.o[0m
+[26.760s] [ 94%] [32m[1mLinking C shared library libsmart_cane_interfaces__rosidl_typesupport_introspection_c.so[0m
+[26.954s] [ 94%] Built target smart_cane_interfaces__rosidl_typesupport_c
+[27.010s] [ 97%] [32mBuilding CXX object CMakeFiles/smart_cane_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smart_cane_interfaces/msg/detail/feedback_command__type_support_c.cpp.o[0m
+[27.176s] [ 97%] Built target smart_cane_interfaces__rosidl_typesupport_introspection_c
+[28.532s] [100%] [32m[1mLinking CXX shared library libsmart_cane_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[28.958s] [100%] Built target smart_cane_interfaces__rosidl_typesupport_fastrtps_c
+[29.005s] [100%] Built target smart_cane_interfaces
+[29.055s] Invoked command in '/home/sash/smart_cane_ws/src/build/smart_cane_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --build /home/sash/smart_cane_ws/src/build/smart_cane_interfaces -- -j4 -l4
+[29.081s] Invoking command in '/home/sash/smart_cane_ws/src/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --install /home/sash/smart_cane_ws/src/build/smart_cane_interfaces
+[29.107s] -- Install configuration: ""
+[29.113s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/ament_index/resource_index/rosidl_interfaces/smart_cane_interfaces
+[29.113s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces
+[29.124s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg
+[29.126s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detection_result.h
+[29.135s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/feedback_command.h
+[29.136s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail
+[29.136s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.h
+[29.137s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__struct.h
+[29.137s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__functions.h
+[29.137s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.h
+[29.138s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__struct.h
+[29.138s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__functions.h
+[29.139s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__functions.c
+[29.139s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__struct.h
+[29.139s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__functions.c
+[29.140s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.h
+[29.141s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__functions.h
+[29.141s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__functions.c
+[29.141s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_generator_c__visibility_control.h
+[29.142s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/ultrasonic_data.h
+[29.146s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/library_path.sh
+[29.147s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/library_path.dsv
+[29.150s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_generator_c.so
+[29.150s] -- Set runtime path of "/home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_generator_c.so" to ""
+[29.150s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces
+[29.151s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg
+[29.151s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[29.151s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail
+[29.152s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_c.h
+[29.152s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_fastrtps_c.h
+[29.153s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_fastrtps_c.h
+[29.153s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_fastrtps_c.so
+[29.154s] -- Set runtime path of "/home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[29.154s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces
+[29.155s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg
+[29.155s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/feedback_command.hpp
+[29.155s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail
+[29.156s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__traits.hpp
+[29.156s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.hpp
+[29.157s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__struct.hpp
+[29.157s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__traits.hpp
+[29.157s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__builder.hpp
+[29.158s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.hpp
+[29.158s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.hpp
+[29.159s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__builder.hpp
+[29.159s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__struct.hpp
+[29.159s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__builder.hpp
+[29.159s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__traits.hpp
+[29.160s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__struct.hpp
+[29.160s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[29.161s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detection_result.hpp
+[29.163s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/ultrasonic_data.hpp
+[29.163s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces
+[29.164s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg
+[29.164s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail
+[29.165s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_fastrtps_cpp.hpp
+[29.165s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/dds_fastrtps
+[29.165s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_fastrtps_cpp.hpp
+[29.166s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_fastrtps_cpp.hpp
+[29.166s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[29.166s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[29.168s] -- Set runtime path of "/home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[29.168s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces
+[29.168s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg
+[29.169s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[29.169s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail
+[29.170s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_introspection_c.h
+[29.170s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.c
+[29.171s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.c
+[29.171s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_introspection_c.h
+[29.171s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.c
+[29.172s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_c.h
+[29.173s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_introspection_c.so
+[29.175s] -- Set runtime path of "/home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[29.176s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_c.so
+[29.176s] -- Set runtime path of "/home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_c.so" to ""
+[29.179s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces
+[29.181s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg
+[29.181s] -- Up-to-date: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail
+[29.184s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__type_support.cpp
+[29.185s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__rosidl_typesupport_introspection_cpp.hpp
+[29.186s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.cpp
+[29.186s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/ultrasonic_data__rosidl_typesupport_introspection_cpp.hpp
+[29.187s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/detection_result__rosidl_typesupport_introspection_cpp.hpp
+[29.187s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/include/smart_cane_interfaces/smart_cane_interfaces/msg/detail/feedback_command__type_support.cpp
+[29.188s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_introspection_cpp.so
+[29.188s] -- Set runtime path of "/home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[29.188s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_cpp.so
+[29.189s] -- Set runtime path of "/home/sash/smart_cane_ws/src/install/smart_cane_interfaces/lib/libsmart_cane_interfaces__rosidl_typesupport_cpp.so" to ""
+[29.189s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/UltrasonicData.idl
+[29.190s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/DetectionResult.idl
+[29.190s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/FeedbackCommand.idl
+[29.190s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/UltrasonicData.msg
+[29.190s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/DetectionResult.msg
+[29.191s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/msg/FeedbackCommand.msg
+[29.191s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/ament_index/resource_index/package_run_dependencies/smart_cane_interfaces
+[29.193s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/ament_index/resource_index/parent_prefix_path/smart_cane_interfaces
+[29.194s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/ament_prefix_path.sh
+[29.194s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/ament_prefix_path.dsv
+[29.195s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/path.sh
+[29.196s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/environment/path.dsv
+[29.196s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.bash
+[29.197s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.sh
+[29.197s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.zsh
+[29.202s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/local_setup.dsv
+[29.204s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/package.dsv
+[29.206s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/ament_index/resource_index/packages/smart_cane_interfaces
+[29.207s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_generator_cExport.cmake
+[29.209s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_generator_cExport-noconfig.cmake
+[29.210s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[29.210s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[29.211s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_generator_cppExport.cmake
+[29.211s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[29.212s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/export_smart_cane_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[29.212s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[29.213s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[29.213s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cExport.cmake
+[29.215s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[29.215s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[29.216s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[29.227s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cppExport.cmake
+[29.229s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[29.230s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/rosidl_cmake-extras.cmake
+[29.230s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.230s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[29.230s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[29.230s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[29.231s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[29.234s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[29.234s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfacesConfig.cmake
+[29.234s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/cmake/smart_cane_interfacesConfig-version.cmake
+[29.235s] -- Installing: /home/sash/smart_cane_ws/src/install/smart_cane_interfaces/share/smart_cane_interfaces/package.xml
+[29.247s] Invoked command in '/home/sash/smart_cane_ws/src/build/smart_cane_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sash/smart_cane_ws/install/smart_cane_system:/opt/ros/humble /usr/bin/cmake --install /home/sash/smart_cane_ws/src/build/smart_cane_interfaces
