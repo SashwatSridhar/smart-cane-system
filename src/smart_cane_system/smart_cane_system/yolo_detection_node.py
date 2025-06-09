@@ -17,6 +17,7 @@ class Yolo_detection(Node):
         self.bridge = CvBridge() 
         #Detection Model
         self.yolo_det_model = YOLO('yolov8n.pt')
+        
         #structure of creating subscribers
         '''
         self.subscriber_name = self.create_subscription(

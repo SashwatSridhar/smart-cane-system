@@ -158,7 +158,6 @@ class ObstacleFusionNode(Node): #is a class that inherits the node properties
     
 
     def obstacle_fusion(self, distance, yolo_confidence, detected_object):
-        """Your fusion logic from before - you can copy this from your working code"""
         if distance <= 1 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
             self.send_vibration_command("Fast")
@@ -174,7 +173,7 @@ class ObstacleFusionNode(Node): #is a class that inherits the node properties
         """Publish audio message to /audio_command topic"""
         msg = String()
         msg.data = f"The {detected_object} is {distance}m away"
-        print(f"AUDIO: {msg.data}")  # Add this line
+        print(f"AUDIO: {msg.data}")  
         self.audio_command_publisher.publish(msg)
 
     
