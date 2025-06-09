@@ -6,7 +6,6 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32, String
 from vision_msgs.msg import Detection2DArray
-
 import time
 
 class ObstacleFusionNode(Node): #is a class that inherits the node properties
