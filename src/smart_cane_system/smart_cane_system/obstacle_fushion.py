@@ -178,22 +178,8 @@ class ObstacleFusionNode(Node): #is a class that inherits the node properties
 
     
     def send_vibration_command(self, vibration_type):
-        """Publish vibration command to /obstacle_alert topic"""
-
         vib_msg = String()
-
-        if vibration_type == "Fast":
-            vib_msg.data = f"Fast beats as you are less than 1m from the object"
-
-        
-        elif vibration_type == "Medium":
-            vib_msg.data =  f"Medium beats as you are less than 2m from the object"
-
-            
-        elif vibration_type == "Slow":
-            vib_msg.data =  f"Slow beats as you are less than 3m from the object"
-        
-        print(f"VIBRATION: {vib_msg.data}") 
+        vib_msg.data = vibration_type  # Just "Fast", "Medium", or "Slow"
         self.vibration_alert_publisher.publish(vib_msg)
 
 def test(node):
