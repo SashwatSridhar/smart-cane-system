@@ -1,0 +1,14 @@
+[0.018s] Invoking command in '/home/sashwat/smart-cane-system/build/smart_cane_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sashwat/smart-cane-system/src/smart_cane_interfaces -DCMAKE_INSTALL_PREFIX=/home/sashwat/smart-cane-system/install/smart_cane_interfaces
+[0.046s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.485s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.527s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.599s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.647s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.717s] [31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interfaces):
+[0.717s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.717s] 
+[0.717s] [0m
+[0.718s] -- Configuring incomplete, errors occurred!
+[0.732s] Invoked command in '/home/sashwat/smart-cane-system/build/smart_cane_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/sashwat/smart-cane-system/src/smart_cane_interfaces -DCMAKE_INSTALL_PREFIX=/home/sashwat/smart-cane-system/install/smart_cane_interfaces

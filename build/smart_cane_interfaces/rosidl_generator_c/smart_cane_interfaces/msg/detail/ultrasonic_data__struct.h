@@ -2,6 +2,9 @@
 // with input from smart_cane_interfaces:msg/UltrasonicData.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "smart_cane_interfaces/msg/ultrasonic_data.h"
+
+
 #ifndef SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__STRUCT_H_
 #define SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__STRUCT_H_
 
@@ -13,7 +16,6 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
-
 
 // Constants defined in the message
 

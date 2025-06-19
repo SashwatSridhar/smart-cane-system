@@ -9,11 +9,23 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "smart_cane_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "smart_cane_interfaces/msg/detail/ultrasonic_data__struct.h"
+#include "fastcdr/Cdr.h"
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_smart_cane_interfaces
+bool cdr_serialize_smart_cane_interfaces__msg__UltrasonicData(
+  const smart_cane_interfaces__msg__UltrasonicData * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_smart_cane_interfaces
+bool cdr_deserialize_smart_cane_interfaces__msg__UltrasonicData(
+  eprosima::fastcdr::Cdr &,
+  smart_cane_interfaces__msg__UltrasonicData * ros_message);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_smart_cane_interfaces
 size_t get_serialized_size_smart_cane_interfaces__msg__UltrasonicData(
@@ -22,6 +34,22 @@ size_t get_serialized_size_smart_cane_interfaces__msg__UltrasonicData(
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_smart_cane_interfaces
 size_t max_serialized_size_smart_cane_interfaces__msg__UltrasonicData(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_smart_cane_interfaces
+bool cdr_serialize_key_smart_cane_interfaces__msg__UltrasonicData(
+  const smart_cane_interfaces__msg__UltrasonicData * ros_message,
+  eprosima::fastcdr::Cdr & cdr);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_smart_cane_interfaces
+size_t get_serialized_size_key_smart_cane_interfaces__msg__UltrasonicData(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_smart_cane_interfaces
+size_t max_serialized_size_key_smart_cane_interfaces__msg__UltrasonicData(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

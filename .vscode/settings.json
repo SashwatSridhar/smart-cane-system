@@ -8,5 +8,6 @@
         "/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/sashwat/smart-cane-system/src/smart_cane_interfaces"
 }

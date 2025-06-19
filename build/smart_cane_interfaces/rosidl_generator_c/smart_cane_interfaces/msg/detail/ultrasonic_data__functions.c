@@ -96,7 +96,7 @@ smart_cane_interfaces__msg__UltrasonicData__copy(
 }
 
 smart_cane_interfaces__msg__UltrasonicData *
-smart_cane_interfaces__msg__UltrasonicData__create()
+smart_cane_interfaces__msg__UltrasonicData__create(void)
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   smart_cane_interfaces__msg__UltrasonicData * msg = (smart_cane_interfaces__msg__UltrasonicData *)allocator.allocate(sizeof(smart_cane_interfaces__msg__UltrasonicData), allocator.state);

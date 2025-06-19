@@ -20,11 +20,13 @@ setup(
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'ultrasonic_node = smart_cane_system.ultrasonic_node:main',
-            'camera_node = smart_cane_system.camera_node:main',
-            'detection_node = smart_cane_system.detection_node:main',
-            'feedback_node = smart_cane_system.feedback_node:main',
-        ],
-    },
+    'console_scripts': [
+        'camera_node = smart_cane_system.camera_node:main',
+        'yolo_detection_node = smart_cane_system.yolo_detection_node:main',
+        'ultrasonic_node = smart_cane_system.ultrasonic_node:main',
+        'obstacle_fusion_node = smart_cane_system.obstacle_fushion:main',
+        'speaker_node = smart_cane_system.speaker_node:main',
+        'vibration_node = smart_cane_system.vibration_node:main',
+   	 ],
+	},
 )

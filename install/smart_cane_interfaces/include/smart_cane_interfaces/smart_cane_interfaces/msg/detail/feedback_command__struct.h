@@ -2,6 +2,9 @@
 // with input from smart_cane_interfaces:msg/FeedbackCommand.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "smart_cane_interfaces/msg/feedback_command.h"
+
+
 #ifndef SMART_CANE_INTERFACES__MSG__DETAIL__FEEDBACK_COMMAND__STRUCT_H_
 #define SMART_CANE_INTERFACES__MSG__DETAIL__FEEDBACK_COMMAND__STRUCT_H_
 
@@ -13,7 +16,6 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
-
 
 // Constants defined in the message
 

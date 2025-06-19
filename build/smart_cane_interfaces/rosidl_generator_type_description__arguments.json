@@ -1,0 +1,14 @@
+{
+  "package_name": "smart_cane_interfaces",
+  "output_dir": "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description/smart_cane_interfaces",
+  "idl_tuples": [
+    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/UltrasonicData.idl",
+    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/DetectionResult.idl",
+    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/FeedbackCommand.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

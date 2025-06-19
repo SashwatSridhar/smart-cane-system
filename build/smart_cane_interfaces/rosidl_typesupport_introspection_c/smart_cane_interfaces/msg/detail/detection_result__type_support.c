@@ -216,6 +216,7 @@ static rosidl_typesupport_introspection_c__MessageMember smart_cane_interfaces__
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
+    false,  // is key
     false,  // is array
     0,  // array size
     false,  // is upper bound
@@ -233,6 +234,7 @@ static rosidl_typesupport_introspection_c__MessageMember smart_cane_interfaces__
     rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
+    false,  // is key
     true,  // is array
     0,  // array size
     false,  // is upper bound
@@ -250,6 +252,7 @@ static rosidl_typesupport_introspection_c__MessageMember smart_cane_interfaces__
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
+    false,  // is key
     true,  // is array
     0,  // array size
     false,  // is upper bound
@@ -267,6 +270,7 @@ static rosidl_typesupport_introspection_c__MessageMember smart_cane_interfaces__
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
+    false,  // is key
     true,  // is array
     0,  // array size
     false,  // is upper bound
@@ -286,6 +290,7 @@ static const rosidl_typesupport_introspection_c__MessageMembers smart_cane_inter
   "DetectionResult",  // message name
   4,  // number of fields
   sizeof(smart_cane_interfaces__msg__DetectionResult),
+  false,  // has_any_key_member_
   smart_cane_interfaces__msg__DetectionResult__rosidl_typesupport_introspection_c__DetectionResult_message_member_array,  // message members
   smart_cane_interfaces__msg__DetectionResult__rosidl_typesupport_introspection_c__DetectionResult_init_function,  // function to initialize message memory (memory has to be allocated)
   smart_cane_interfaces__msg__DetectionResult__rosidl_typesupport_introspection_c__DetectionResult_fini_function  // function to terminate message instance (will not free memory)
@@ -297,6 +302,9 @@ static rosidl_message_type_support_t smart_cane_interfaces__msg__DetectionResult
   0,
   &smart_cane_interfaces__msg__DetectionResult__rosidl_typesupport_introspection_c__DetectionResult_message_members,
   get_message_typesupport_handle_function,
+  &smart_cane_interfaces__msg__DetectionResult__get_type_hash,
+  &smart_cane_interfaces__msg__DetectionResult__get_type_description,
+  &smart_cane_interfaces__msg__DetectionResult__get_type_description_sources,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_smart_cane_interfaces

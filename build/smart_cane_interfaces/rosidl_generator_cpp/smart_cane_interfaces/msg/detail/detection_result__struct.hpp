@@ -2,6 +2,9 @@
 // with input from smart_cane_interfaces:msg/DetectionResult.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "smart_cane_interfaces/msg/detection_result.hpp"
+
+
 #ifndef SMART_CANE_INTERFACES__MSG__DETAIL__DETECTION_RESULT__STRUCT_HPP_
 #define SMART_CANE_INTERFACES__MSG__DETAIL__DETECTION_RESULT__STRUCT_HPP_
 

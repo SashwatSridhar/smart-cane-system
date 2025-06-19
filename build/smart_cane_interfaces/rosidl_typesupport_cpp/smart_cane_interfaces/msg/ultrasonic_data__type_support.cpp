@@ -4,6 +4,7 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
+#include "smart_cane_interfaces/msg/detail/ultrasonic_data__functions.h"
 #include "smart_cane_interfaces/msg/detail/ultrasonic_data__struct.hpp"
 #include "rosidl_typesupport_cpp/identifier.hpp"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
@@ -72,6 +73,9 @@ static const rosidl_message_type_support_t UltrasonicData_message_type_support_h
   ::rosidl_typesupport_cpp::typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_UltrasonicData_message_typesupport_map),
   ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
+  &smart_cane_interfaces__msg__UltrasonicData__get_type_hash,
+  &smart_cane_interfaces__msg__UltrasonicData__get_type_description,
+  &smart_cane_interfaces__msg__UltrasonicData__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_cpp

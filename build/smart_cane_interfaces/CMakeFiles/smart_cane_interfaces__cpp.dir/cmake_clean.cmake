@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.hpp"
   "rosidl_generator_cpp/smart_cane_interfaces/msg/detection_result.hpp"
   "rosidl_generator_cpp/smart_cane_interfaces/msg/feedback_command.hpp"
+  "rosidl_generator_cpp/smart_cane_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/smart_cane_interfaces/msg/ultrasonic_data.hpp"
 )
 

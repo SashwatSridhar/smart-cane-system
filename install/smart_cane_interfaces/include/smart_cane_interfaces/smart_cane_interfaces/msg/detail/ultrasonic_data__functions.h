@@ -2,6 +2,9 @@
 // with input from smart_cane_interfaces:msg/UltrasonicData.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "smart_cane_interfaces/msg/ultrasonic_data.h"
+
+
 #ifndef SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__FUNCTIONS_H_
 #define SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__FUNCTIONS_H_
 
@@ -13,6 +16,12 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
+#include "rosidl_runtime_c/action_type_support_struct.h"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_runtime_c/service_type_support_struct.h"
+#include "rosidl_runtime_c/type_description/type_description__struct.h"
+#include "rosidl_runtime_c/type_description/type_source__struct.h"
+#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "smart_cane_interfaces/msg/rosidl_generator_c__visibility_control.h"
 
@@ -53,7 +62,7 @@ smart_cane_interfaces__msg__UltrasonicData__fini(smart_cane_interfaces__msg__Ult
  */
 ROSIDL_GENERATOR_C_PUBLIC_smart_cane_interfaces
 smart_cane_interfaces__msg__UltrasonicData *
-smart_cane_interfaces__msg__UltrasonicData__create();
+smart_cane_interfaces__msg__UltrasonicData__create(void);
 
 /// Destroy msg/UltrasonicData message.
 /**
@@ -92,6 +101,30 @@ bool
 smart_cane_interfaces__msg__UltrasonicData__copy(
   const smart_cane_interfaces__msg__UltrasonicData * input,
   smart_cane_interfaces__msg__UltrasonicData * output);
+
+/// Retrieve pointer to the hash of the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_smart_cane_interfaces
+const rosidl_type_hash_t *
+smart_cane_interfaces__msg__UltrasonicData__get_type_hash(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_smart_cane_interfaces
+const rosidl_runtime_c__type_description__TypeDescription *
+smart_cane_interfaces__msg__UltrasonicData__get_type_description(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the single raw source text that defined this type.
+ROSIDL_GENERATOR_C_PUBLIC_smart_cane_interfaces
+const rosidl_runtime_c__type_description__TypeSource *
+smart_cane_interfaces__msg__UltrasonicData__get_individual_type_description_source(
+  const rosidl_message_type_support_t * type_support);
+
+/// Retrieve pointer to the recursive raw sources that defined the description of this type.
+ROSIDL_GENERATOR_C_PUBLIC_smart_cane_interfaces
+const rosidl_runtime_c__type_description__TypeSource__Sequence *
+smart_cane_interfaces__msg__UltrasonicData__get_type_description_sources(
+  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/UltrasonicData messages.
 /**

@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/sash/smart_cane_ws/install/smart_cane_interfaces"}
+: ${AMENT_CURRENT_PREFIX:="/home/sashwat/smart-cane-system/install/smart_cane_interfaces"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \
@@ -154,6 +154,7 @@ fi
 ament_append_value AMENT_ENVIRONMENT_HOOKS "$AMENT_CURRENT_PREFIX/share/smart_cane_interfaces/environment/ament_prefix_path.sh"
 ament_append_value AMENT_ENVIRONMENT_HOOKS "$AMENT_CURRENT_PREFIX/share/smart_cane_interfaces/environment/library_path.sh"
 ament_append_value AMENT_ENVIRONMENT_HOOKS "$AMENT_CURRENT_PREFIX/share/smart_cane_interfaces/environment/path.sh"
+ament_append_value AMENT_ENVIRONMENT_HOOKS "$AMENT_CURRENT_PREFIX/share/smart_cane_interfaces/environment/pythonpath.sh"
 
 # source all shell-specific environment hooks of this package
 # if not returning them

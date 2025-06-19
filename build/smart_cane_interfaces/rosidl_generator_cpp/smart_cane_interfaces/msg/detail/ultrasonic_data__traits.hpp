@@ -2,6 +2,9 @@
 // with input from smart_cane_interfaces:msg/UltrasonicData.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "smart_cane_interfaces/msg/ultrasonic_data.hpp"
+
+
 #ifndef SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__TRAITS_HPP_
 #define SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__TRAITS_HPP_
 

@@ -5,6 +5,7 @@
 #ifndef SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
 #define SMART_CANE_INTERFACES__MSG__DETAIL__ULTRASONIC_DATA__ROSIDL_TYPESUPPORT_FASTRTPS_CPP_HPP_
 
+#include <cstddef>
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "smart_cane_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h"
@@ -54,6 +55,25 @@ get_serialized_size(
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_smart_cane_interfaces
 max_serialized_size_UltrasonicData(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+bool
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_smart_cane_interfaces
+cdr_serialize_key(
+  const smart_cane_interfaces::msg::UltrasonicData & ros_message,
+  eprosima::fastcdr::Cdr &);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_smart_cane_interfaces
+get_serialized_size_key(
+  const smart_cane_interfaces::msg::UltrasonicData & ros_message,
+  size_t current_alignment);
+
+size_t
+ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_smart_cane_interfaces
+max_serialized_size_key_UltrasonicData(
   bool & full_bounded,
   bool & is_plain,
   size_t current_alignment);

@@ -6,6 +6,7 @@
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "smart_cane_interfaces/msg/detail/feedback_command__struct.h"
 #include "smart_cane_interfaces/msg/detail/feedback_command__type_support.h"
+#include "smart_cane_interfaces/msg/detail/feedback_command__functions.h"
 #include "rosidl_typesupport_c/identifier.h"
 #include "rosidl_typesupport_c/message_type_support_dispatch.h"
 #include "rosidl_typesupport_c/type_support_map.h"
@@ -72,6 +73,9 @@ static const rosidl_message_type_support_t FeedbackCommand_message_type_support_
   rosidl_typesupport_c__typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_FeedbackCommand_message_typesupport_map),
   rosidl_typesupport_c__get_message_typesupport_handle_function,
+  &smart_cane_interfaces__msg__FeedbackCommand__get_type_hash,
+  &smart_cane_interfaces__msg__FeedbackCommand__get_type_description,
+  &smart_cane_interfaces__msg__FeedbackCommand__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_c

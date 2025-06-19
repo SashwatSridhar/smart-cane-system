@@ -2,6 +2,9 @@
 // with input from smart_cane_interfaces:msg/DetectionResult.idl
 // generated code does not contain a copyright notice
 
+// IWYU pragma: private, include "smart_cane_interfaces/msg/detection_result.h"
+
+
 #ifndef SMART_CANE_INTERFACES__MSG__DETAIL__DETECTION_RESULT__TYPE_SUPPORT_H_
 #define SMART_CANE_INTERFACES__MSG__DETAIL__DETECTION_RESULT__TYPE_SUPPORT_H_
 
@@ -24,7 +27,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
   smart_cane_interfaces,
   msg,
   DetectionResult
-)();
+)(void);
 
 #ifdef __cplusplus
 }

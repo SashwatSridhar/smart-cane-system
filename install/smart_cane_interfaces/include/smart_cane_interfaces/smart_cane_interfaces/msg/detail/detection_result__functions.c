@@ -135,7 +135,7 @@ smart_cane_interfaces__msg__DetectionResult__copy(
 }
 
 smart_cane_interfaces__msg__DetectionResult *
-smart_cane_interfaces__msg__DetectionResult__create()
+smart_cane_interfaces__msg__DetectionResult__create(void)
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   smart_cane_interfaces__msg__DetectionResult * msg = (smart_cane_interfaces__msg__DetectionResult *)allocator.allocate(sizeof(smart_cane_interfaces__msg__DetectionResult), allocator.state);

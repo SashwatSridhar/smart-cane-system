@@ -27,7 +27,7 @@ if(NOT "" STREQUAL "")
     set(_msg "${_msg} ()")
   endif()
   # optionally quiet the deprecation message
-  if(NOT ${smart_cane_interfaces_DEPRECATED_QUIET})
+  if(NOT smart_cane_interfaces_DEPRECATED_QUIET)
     message(DEPRECATION "${_msg}")
   endif()
 endif()
