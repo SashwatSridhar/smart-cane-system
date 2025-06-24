@@ -1,0 +1,5 @@
+Smart Cane Camera Test Results
+========================================
+Working cameras: [8]
+Recommended camera: /dev/video8
+Use camera index 8 in ROS2 code

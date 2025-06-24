@@ -16,7 +16,7 @@ class Camera(Node):
     def __init__(self):
         super().__init__('camera_node')
         self.bridge = CvBridge() 
-        self.cap = cv2.VideoCapture(0)#captures using the first camera on your device
+        self.cap = cv2.VideoCapture(0)#captures using the plugged in camera 
 
         #check if image capture was sucessful
         success_flag, img_data = self.cap.read() 

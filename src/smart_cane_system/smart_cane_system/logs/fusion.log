@@ -1,0 +1,73 @@
+[INFO] [1750787257.587865950] [obstacle_fusion_node]: Smart Obstacle Fusion Node initialized
+[INFO] [1750787258.765678602] [obstacle_fusion_node]: 🔊 Announced: person at 0.7m
+[INFO] [1750787268.259985399] [obstacle_fusion_node]: 🔊 Announced: person at 1.8m
+[INFO] [1750787311.259822966] [obstacle_fusion_node]: 🔊 Announced: person at 2.3m
+[INFO] [1750787314.359068927] [obstacle_fusion_node]: 🔊 Announced: person at 0.5m
+[INFO] [1750787321.664383954] [obstacle_fusion_node]: 🔊 Announced: person at 1.1m
+[INFO] [1750787324.759109407] [obstacle_fusion_node]: 🔊 Announced: person at 1.6m
+[INFO] [1750787329.262527908] [obstacle_fusion_node]: 🔊 Announced: person at 2.4m
+[INFO] [1750787334.059242040] [obstacle_fusion_node]: 🔊 Announced: person at 1.7m
+[INFO] [1750787351.060538401] [obstacle_fusion_node]: 🔊 Announced: person at 1.0m
+[INFO] [1750787354.259058479] [obstacle_fusion_node]: 🔊 Announced: person at 2.2m
+[INFO] [1750787365.459292821] [obstacle_fusion_node]: 🔊 Announced: person at 1.1m
+[INFO] [1750787368.559151899] [obstacle_fusion_node]: 🔊 Announced: person at 0.4m
+[INFO] [1750787373.459885917] [obstacle_fusion_node]: 🔊 Announced: person at 0.9m
+[INFO] [1750787383.659489317] [obstacle_fusion_node]: 🔊 Announced: person at 2.5m
+[INFO] [1750787387.461324862] [obstacle_fusion_node]: 🔊 Announced: person at 1.8m
+[INFO] [1750787436.459069808] [obstacle_fusion_node]: 🔊 Announced: person at 2.9m
+[INFO] [1750787439.460368697] [obstacle_fusion_node]: 🔊 Announced: person at 1.7m
+[INFO] [1750787442.558920802] [obstacle_fusion_node]: 🔊 Announced: person at 0.8m
+[INFO] [1750787448.658990666] [obstacle_fusion_node]: 🔊 Announced: person at 1.3m
+[INFO] [1750787454.660398001] [obstacle_fusion_node]: 🔊 Announced: person at 0.7m
+[INFO] [1750787457.760372011] [obstacle_fusion_node]: 🔊 Announced: person at 1.6m
+[INFO] [1750787460.860484327] [obstacle_fusion_node]: 🔊 Announced: person at 0.9m
+[INFO] [1750787464.462046438] [obstacle_fusion_node]: 🔊 Announced: person at 2.2m
+[INFO] [1750787467.862156968] [obstacle_fusion_node]: 🔊 Announced: person at 1.3m
+[INFO] [1750787479.259734084] [obstacle_fusion_node]: 🔊 Announced: person at 2.3m
+[INFO] [1750787484.059543957] [obstacle_fusion_node]: 🔊 Announced: person at 2.9m
+[INFO] [1750787487.063634588] [obstacle_fusion_node]: 🔊 Announced: person at 0.6m
+AUDIO: The person is 0.7m away
+AUDIO: The person is 1.8m away
+AUDIO: The person is 2.3m away
+AUDIO: The person is 0.5m away
+AUDIO: The person is 1.1m away
+AUDIO: The person is 1.6m away
+AUDIO: The person is 2.4m away
+AUDIO: The person is 1.7m away
+AUDIO: The person is 1.0m away
+AUDIO: The person is 2.2m away
+AUDIO: The person is 1.1m away
+AUDIO: The person is 0.4m away
+AUDIO: The person is 0.9m away
+AUDIO: The person is 2.5m away
+AUDIO: The person is 1.8m away
+AUDIO: The person is 2.9m away
+AUDIO: The person is 1.7m away
+AUDIO: The person is 0.8m away
+AUDIO: The person is 1.3m away
+AUDIO: The person is 0.7m away
+AUDIO: The person is 1.6m away
+AUDIO: The person is 0.9m away
+AUDIO: The person is 2.2m away
+AUDIO: The person is 1.3m away
+AUDIO: The person is 2.3m away
+AUDIO: The person is 2.9m away
+AUDIO: The person is 0.6m away
+Traceback (most recent call last):
+  File "/home/sashwat/smart-cane-system/src/smart_cane_system/smart_cane_system/obstacle_fusion.py", line 275, in <module>
+    main()
+  File "/home/sashwat/smart-cane-system/src/smart_cane_system/smart_cane_system/obstacle_fusion.py", line 271, in main
+    rclpy.spin(node)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+    executor.spin_once()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 839, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 823, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 793, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 701, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
