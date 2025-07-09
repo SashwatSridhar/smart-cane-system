@@ -228,16 +228,15 @@ class ObstacleFusionNode(Node):
 
     # Keep your original obstacle_fusion method for backwards compatibility/testing
     def obstacle_fusion(self, distance, yolo_confidence, detected_object):
-        """Original fusion method - kept for testing"""
-        if distance <= 1 and yolo_confidence >= 0.75:
+        if distance <= 1.0 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
             self.send_vibration_command("Fast")
-        elif distance <= 2 and yolo_confidence >= 0.75:
+        elif distance <= 2.0 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
             self.send_vibration_command("Medium")
-        elif distance <= 3 and yolo_confidence >= 0.75:
+        elif distance <= 2.5 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
-            self.send_vibration_command("Slow")    
+            self.send_vibration_command("Slow")  
 
 def test(node):
     """Test the original fusion logic"""
