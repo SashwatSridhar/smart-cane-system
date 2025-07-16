@@ -132,12 +132,12 @@ class ObstacleFusionNode(Node):
         return False
     
     def process_fusion_timer(self):
-        """Timer callback that runs fusion logic with smart filtering"""
+        """Timer callback with separate logic for vibration (responsive) vs audio (accurate)"""
         # Check if we have both sensors
         if self.latest_detection is None or self.latest_distance is None:
             return 
 
-        # Get current distance (not historical closest)
+        # Get current distance
         current_distance = self.latest_distance
         
         # Find most relevant detection (center-focused)
@@ -148,18 +148,19 @@ class ObstacleFusionNode(Node):
             
         # Extract detection info
         confidence = center_detection.results[0].hypothesis.score
-        class_id = center_detection.results[0].hypothesis.class_id
+        class_id = int(center_detection.results[0].hypothesis.class_id)
         detected_object = self.convert_id_to_name(class_id)
         
-        # Only process if object is close enough and confident enough
-        if current_distance <= 3.0 and confidence >= 0.75:
+        # 📳 VIBRATION LOGIC - Lower threshold for responsive haptic feedback
+        if current_distance <= 3.0 and confidence >= 0.40:  # Much more responsive!
+            self.send_vibration_command_by_distance(current_distance)
+            self.get_logger().debug(f"📳 Vibration: {detected_object} at {current_distance:.1f}m (confidence: {confidence:.2f})")
+        
+        # 🔊 AUDIO LOGIC - Higher threshold for accurate announcements
+        if current_distance <= 3.0 and confidence >= 0.75:  # Keep high accuracy for audio
             # Check if we should announce (smart filtering)
             should_announce = self.should_announce(current_distance, detected_object)
             
-            # Always send vibration for continuous feedback
-            self.send_vibration_command_by_distance(current_distance)
-            
-            # Only send audio if filtering allows it
             if should_announce:
                 self.send_audio_command(current_distance, detected_object)
                 
@@ -168,9 +169,13 @@ class ObstacleFusionNode(Node):
                 self.last_announced_distance = current_distance
                 self.last_announcement_time = time.time()
                 
-                self.get_logger().info(f"Announced: {detected_object} at {current_distance:.1f}m")
+                self.get_logger().info(f"🔊 Announced: {detected_object} at {current_distance:.1f}m")
             else:
-                self.get_logger().debug(f"Filtered: {detected_object} at {current_distance:.1f}m")
+                self.get_logger().debug(f"🔇 Filtered audio: {detected_object} at {current_distance:.1f}m")
+        else:
+            # Log when audio is skipped due to low confidence
+            if current_distance <= 3.0 and confidence < 0.75:
+                self.get_logger().debug(f"🔇 Audio skipped: {detected_object} at {current_distance:.1f}m (confidence too low: {confidence:.2f})")
 
     def convert_id_to_name(self, class_id):
         class_names = {
@@ -223,16 +228,15 @@ class ObstacleFusionNode(Node):
 
     # Keep your original obstacle_fusion method for backwards compatibility/testing
     def obstacle_fusion(self, distance, yolo_confidence, detected_object):
-        """Original fusion method - kept for testing"""
-        if distance <= 1 and yolo_confidence >= 0.75:
+        if distance <= 1.0 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
             self.send_vibration_command("Fast")
-        elif distance <= 2 and yolo_confidence >= 0.75:
+        elif distance <= 2.0 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
             self.send_vibration_command("Medium")
-        elif distance <= 3 and yolo_confidence >= 0.75:
+        elif distance <= 2.5 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
-            self.send_vibration_command("Slow")    
+            self.send_vibration_command("Slow")  
 
 def test(node):
     """Test the original fusion logic"""
@@ -261,7 +265,7 @@ def main(args=None):
     node = ObstacleFusionNode()
     
     # Uncomment to run tests:
-    # test(node)
+    #test(node)
     
     rclpy.spin(node)
     rclpy.shutdown()

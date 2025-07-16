@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sashwat/smart-cane-system/src/smart_cane_interfaces
+CMAKE_SOURCE_DIR = /home/ubuntu/smart-cane-system/src/smart_cane_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sashwat/smart-cane-system/build/smart_cane_interfaces
+CMAKE_BINARY_DIR = /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
 
 # Utility rule file for smart_cane_interfaces__rosidl_generator_type_description.
 
@@ -75,8 +75,8 @@ rosidl_generator_type_description/smart_cane_interfaces/msg/UltrasonicData.json:
 rosidl_generator_type_description/smart_cane_interfaces/msg/UltrasonicData.json: rosidl_adapter/smart_cane_interfaces/msg/UltrasonicData.idl
 rosidl_generator_type_description/smart_cane_interfaces/msg/UltrasonicData.json: rosidl_adapter/smart_cane_interfaces/msg/DetectionResult.idl
 rosidl_generator_type_description/smart_cane_interfaces/msg/UltrasonicData.json: rosidl_adapter/smart_cane_interfaces/msg/FeedbackCommand.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
-	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
+	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description__arguments.json
 
 rosidl_generator_type_description/smart_cane_interfaces/msg/DetectionResult.json: rosidl_generator_type_description/smart_cane_interfaces/msg/UltrasonicData.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/smart_cane_interfaces/msg/DetectionResult.json
@@ -100,6 +100,6 @@ CMakeFiles/smart_cane_interfaces__rosidl_generator_type_description.dir/clean:
 .PHONY : CMakeFiles/smart_cane_interfaces__rosidl_generator_type_description.dir/clean
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_type_description.dir/depend:
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces__rosidl_generator_type_description.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/smart_cane_interfaces__rosidl_generator_type_description.dir/depend
 

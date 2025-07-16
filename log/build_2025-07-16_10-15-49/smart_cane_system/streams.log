@@ -1,0 +1,32 @@
+[1.819s] Invoking command in '/home/ubuntu/smart-cane-system/src/smart_cane_system': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/smart-cane-system/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages:/home/ubuntu/smart-cane-system/install/smart_cane_interfaces/lib/python3.12/site-packages:/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/ubuntu/smart-cane-system/build/smart_cane_system/build install --record /home/ubuntu/smart-cane-system/build/smart_cane_system/install.log --single-version-externally-managed install_data
+[2.260s] running egg_info
+[2.291s] writing ../../build/smart_cane_system/smart_cane_system.egg-info/PKG-INFO
+[2.291s] writing dependency_links to ../../build/smart_cane_system/smart_cane_system.egg-info/dependency_links.txt
+[2.297s] writing entry points to ../../build/smart_cane_system/smart_cane_system.egg-info/entry_points.txt
+[2.298s] writing requirements to ../../build/smart_cane_system/smart_cane_system.egg-info/requires.txt
+[2.299s] writing top-level names to ../../build/smart_cane_system/smart_cane_system.egg-info/top_level.txt
+[2.363s] reading manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'
+[2.370s] writing manifest file '../../build/smart_cane_system/smart_cane_system.egg-info/SOURCES.txt'
+[2.370s] running build
+[2.371s] running build_py
+[2.371s] copying smart_cane_system/obstacle_fusion.py -> /home/ubuntu/smart-cane-system/build/smart_cane_system/build/lib/smart_cane_system
+[2.371s] copying smart_cane_system/camera_node.py -> /home/ubuntu/smart-cane-system/build/smart_cane_system/build/lib/smart_cane_system
+[2.372s] running install
+[2.384s] running install_lib
+[2.412s] copying /home/ubuntu/smart-cane-system/build/smart_cane_system/build/lib/smart_cane_system/obstacle_fusion.py -> /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system
+[2.412s] copying /home/ubuntu/smart-cane-system/build/smart_cane_system/build/lib/smart_cane_system/camera_node.py -> /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system
+[2.413s] byte-compiling /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system/obstacle_fusion.py to obstacle_fusion.cpython-312.pyc
+[2.416s] byte-compiling /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system/camera_node.py to camera_node.cpython-312.pyc
+[2.423s] running install_data
+[2.423s] running install_egg_info
+[2.461s] removing '/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system-0.0.0-py3.12.egg-info' (and everything under it)
+[2.461s] Copying ../../build/smart_cane_system/smart_cane_system.egg-info to /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system-0.0.0-py3.12.egg-info
+[2.464s] running install_scripts
+[2.731s] Installing camera_node script to /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system
+[2.731s] Installing obstacle_fusion_node script to /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system
+[2.744s] Installing speaker_node script to /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system
+[2.744s] Installing ultrasonic_node script to /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system
+[2.744s] Installing vibration_node script to /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system
+[2.744s] Installing yolo_detection_node script to /home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system
+[2.747s] writing list of installed files to '/home/ubuntu/smart-cane-system/build/smart_cane_system/install.log'
+[2.931s] Invoked command in '/home/ubuntu/smart-cane-system/src/smart_cane_system' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ubuntu/smart-cane-system/build/smart_cane_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages:/home/ubuntu/smart-cane-system/install/smart_cane_interfaces/lib/python3.12/site-packages:/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_cane_system build --build-base /home/ubuntu/smart-cane-system/build/smart_cane_system/build install --record /home/ubuntu/smart-cane-system/build/smart_cane_system/install.log --single-version-externally-managed install_data

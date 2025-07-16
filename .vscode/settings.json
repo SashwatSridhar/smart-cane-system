@@ -1,13 +1,33 @@
 {
+    "ros.distro": "jazzy",
+    "python.defaultInterpreter": "/usr/bin/python3",
+    "python.terminal.activateEnvironment": false,
+    "terminal.integrated.env.linux": {
+        "ROS_DOMAIN_ID": "0",
+        "RMW_IMPLEMENTATION": "rmw_fastrtps_cpp",
+        "PYTHONPATH": "/opt/ros/jazzy/lib/python3.12/site-packages:${workspaceFolder}/install/smart_cane_system/lib/python3.12/site-packages"
+    },
+    "python.analysis.extraPaths": [
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/local/lib/python3.12/dist-packages",
+        "${workspaceFolder}/install/smart_cane_system/lib/python3.12/site-packages"
+    ],
+    "cmake.sourceDirectory": "${workspaceFolder}/src/smart_cane_interfaces",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.installDirectory": "${workspaceFolder}/install"
+}{
+    "ros.distro": "jazzy",
+    "python.defaultInterpreter": "/usr/bin/python3",
     "python.autoComplete.extraPaths": [
-        "/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages",
-        "/opt/ros/humble/lib/python3.10/site-packages",
-        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/local/lib/python3.12/dist-packages",
+        "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages"
     ],
     "python.analysis.extraPaths": [
-        "/home/sash/smart_cane_ws/install/smart_cane_system/lib/python3.10/site-packages",
-        "/opt/ros/humble/lib/python3.10/site-packages",
-        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+        "/opt/ros/jazzy/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/local/lib/python3.12/dist-packages",
+        "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages"
     ],
-    "cmake.sourceDirectory": "/home/sashwat/smart-cane-system/src/smart_cane_interfaces"
+    "python.analysis.autoImportCompletions": true,
+    "cmake.sourceDirectory": "/home/ubuntu/smart-cane-system/src/smart_cane_interfaces"
 }

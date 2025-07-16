@@ -1,5 +1,5 @@
 CMakeFiles/smart_cane_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/smart_cane_interfaces/msg/ultrasonic_data__type_support.cpp.o: \
- /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_typesupport_c/smart_cane_interfaces/msg/ultrasonic_data__type_support.cpp \
+ /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_typesupport_c/smart_cane_interfaces/msg/ultrasonic_data__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cstddef \
  /usr/include/aarch64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/aarch64-linux-gnu/c++/13/bits/os_defines.h \
@@ -40,12 +40,12 @@ CMakeFiles/smart_cane_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/
  /opt/ros/jazzy/include/rcutils/rcutils/sha256.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/detail/ultrasonic_data__struct.h \
+ /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/detail/ultrasonic_data__struct.h \
  /opt/ros/jazzy/include/std_msgs/std_msgs/msg/detail/header__struct.h \
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.h \
- /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/detail/ultrasonic_data__functions.h \
+ /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.h \
+ /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces/msg/detail/ultrasonic_data__functions.h \
  /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \

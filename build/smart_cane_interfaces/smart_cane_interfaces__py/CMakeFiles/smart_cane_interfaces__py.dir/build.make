@@ -53,29 +53,29 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sashwat/smart-cane-system/src/smart_cane_interfaces
+CMAKE_SOURCE_DIR = /home/ubuntu/smart-cane-system/src/smart_cane_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sashwat/smart-cane-system/build/smart_cane_interfaces
+CMAKE_BINARY_DIR = /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
 
 # Utility rule file for smart_cane_interfaces__py.
 
 # Include any custom commands dependencies for this target.
-include /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/compiler_depend.make
+include /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/progress.make
+include /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/progress.make
 
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_introspection_c.c
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_c.c
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data.py
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_detection_result.py
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command.py
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/__init__.py
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_c.c
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data.py
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_detection_result.py
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command.py
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/__init__.py
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c
 
 rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_py/__init__.py
@@ -157,8 +157,8 @@ rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py && /usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -197,19 +197,19 @@ smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_feedba
 smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c
 smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data.py
 smart_cane_interfaces__py: rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c
-smart_cane_interfaces__py: /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py
-smart_cane_interfaces__py: /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build.make
+smart_cane_interfaces__py: /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py
+smart_cane_interfaces__py: /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build.make
 .PHONY : smart_cane_interfaces__py
 
 # Rule to build all files generated by this target.
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build: smart_cane_interfaces__py
-.PHONY : /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build: smart_cane_interfaces__py
+.PHONY : /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build
 
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/clean:
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/smart_cane_interfaces__py.dir/cmake_clean.cmake
-.PHONY : /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/clean
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/clean:
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/smart_cane_interfaces__py.dir/cmake_clean.cmake
+.PHONY : /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/clean
 
-/home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/depend:
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/DependInfo.cmake "--color=$(COLOR)"
-.PHONY : /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/depend
+/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/depend:
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/DependInfo.cmake "--color=$(COLOR)"
+.PHONY : /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/depend
 

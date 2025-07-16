@@ -4,3 +4,7 @@ smart_cane_interfaces.egg-info/PKG-INFO
 smart_cane_interfaces.egg-info/SOURCES.txt
 smart_cane_interfaces.egg-info/dependency_links.txt
 smart_cane_interfaces.egg-info/top_level.txt
+smart_cane_interfaces/msg/__init__.py
+smart_cane_interfaces/msg/_detection_result.py
+smart_cane_interfaces/msg/_feedback_command.py
+smart_cane_interfaces/msg/_ultrasonic_data.py

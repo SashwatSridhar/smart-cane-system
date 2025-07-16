@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sashwat/smart-cane-system/src/smart_cane_interfaces
+CMAKE_SOURCE_DIR = /home/ubuntu/smart-cane-system/src/smart_cane_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sashwat/smart-cane-system/build/smart_cane_interfaces
+CMAKE_BINARY_DIR = /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/fl
 CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o: CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o: rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o: CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o -MF CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o.d -o CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o -c /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o -MF CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o.d -o CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o -c /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 
 CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c > CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c > CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.i
 
 CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c -o CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c -o CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/smart_cane_interfaces/_smart_cane_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.s
 
 # Object files for target smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c
 smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c_OBJECTS = \
@@ -115,7 +115,7 @@ rosidl_generator_py/smart_cane_interfaces/smart_cane_interfaces_s__rosidl_typesu
 rosidl_generator_py/smart_cane_interfaces/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 rosidl_generator_py/smart_cane_interfaces/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.so: /opt/ros/jazzy/lib/librcutils.so
 rosidl_generator_py/smart_cane_interfaces/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.so: CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module rosidl_generator_py/smart_cane_interfaces/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared module rosidl_generator_py/smart_cane_interfaces/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +127,6 @@ CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/clean:
 .PHONY : CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/clean
 
 CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/depend:
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/smart_cane_interfaces_s__rosidl_typesupport_fastrtps_c.dir/depend
 

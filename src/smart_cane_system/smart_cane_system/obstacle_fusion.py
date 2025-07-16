@@ -20,6 +20,16 @@ class ObstacleFusionNode(Node):
         self.last_announced_distance = None
         self.last_announcement_time = 0
         self.min_announcement_interval = 3.0  # 3 seconds between announcements
+        
+        # 📳 ADD THESE VIBRATION STATE VARIABLES:
+        self.last_vibration_type = None
+        self.last_vibration_distance = None
+        self.last_vibration_time = 0
+        self.min_vibration_interval = 1.0  # 1 second between vibration changes
+        self.vibration_active = False
+        
+        self.distance_history = []
+        self.distance_history_size = 5
 
         # Initialize all the subscribers
         self.distance_listener = self.create_subscription(
@@ -64,6 +74,23 @@ class ObstacleFusionNode(Node):
     def detection_callback(self, msg):
         """Callback when YOLO detection data arrives"""
         self.latest_detection = msg
+        
+    def is_stable_background_reading(self, current_distance):
+        """Check if distance reading is stable background (floor/wall reflection)"""
+        self.distance_history.append(current_distance)
+        if len(self.distance_history) > self.distance_history_size:
+            self.distance_history.pop(0)
+        
+        if len(self.distance_history) >= 3:
+            # Calculate standard deviation
+            import statistics
+            std_dev = statistics.stdev(self.distance_history)
+            
+            # If readings are very stable (low variation), it's probably background
+            if std_dev < 0.1 and current_distance > 1.8:  # Very stable + far = background
+                return True
+        
+        return False
         
     def is_in_center_region(self, detection):
         """Check if detection bounding box is in center region of camera view"""
@@ -131,51 +158,108 @@ class ObstacleFusionNode(Node):
             
         return False
     
+    def should_vibrate(self, current_distance, vibration_type):
+        
+        current_time = time.time()
+        
+        # Don't change vibration too frequently
+        if current_time - self.last_vibration_time < self.min_vibration_interval:
+            return False
+        
+        # Vibrate if NEW vibration type needed
+        if vibration_type != self.last_vibration_type:
+            return True
+            
+        # Vibrate if distance changed significantly (>0.3m)
+        if self.last_vibration_distance is None:
+            return True
+            
+        distance_change = abs(current_distance - self.last_vibration_distance)
+        if distance_change > 0.3:  # Significant distance change
+            return True
+            
+        return False
+    
+    def determine_vibration_type(self, distance):
+        """Determine what vibration type should be active"""
+        if distance <= 1:
+            return "Fast"
+        elif distance <= 2:
+            return "Medium"
+        elif distance <= 2.4:
+            return "Slow"
+        else:
+            return None  # No vibration needed
+    
     def process_fusion_timer(self):
-        """Timer callback with separate logic for vibration (responsive) vs audio (accurate)"""
+        """Timer callback with improved background rejection"""
         # Check if we have both sensors
         if self.latest_detection is None or self.latest_distance is None:
+            if self.vibration_active:
+                self.send_vibration_command("Stop")
+                self.vibration_active = False
+                self.last_vibration_type = None
             return 
 
-        # Get current distance
         current_distance = self.latest_distance
-        
-        # Find most relevant detection (center-focused)
         center_detection = self.find_center_detection()
         
-        if center_detection is None:
+        # 🔧 STRICTER DISTANCE THRESHOLD: Reduce to 2.0m to avoid floor reflections
+        if current_distance > 2.0:  # Changed from 2.4 to 2.0
+            if self.vibration_active:
+                self.send_vibration_command("Stop")
+                self.vibration_active = False
+                self.last_vibration_type = None
             return
-            
-        # Extract detection info
-        confidence = center_detection.results[0].hypothesis.score
-        class_id = int(center_detection.results[0].hypothesis.class_id)
-        detected_object = self.convert_id_to_name(class_id)
         
-        # 📳 VIBRATION LOGIC - Lower threshold for responsive haptic feedback
-        if current_distance <= 3.0 and confidence >= 0.40:  # Much more responsive!
-            self.send_vibration_command_by_distance(current_distance)
-            self.get_logger().debug(f"📳 Vibration: {detected_object} at {current_distance:.1f}m (confidence: {confidence:.2f})")
-        
-        # 🔊 AUDIO LOGIC - Higher threshold for accurate announcements
-        if current_distance <= 3.0 and confidence >= 0.75:  # Keep high accuracy for audio
-            # Check if we should announce (smart filtering)
-            should_announce = self.should_announce(current_distance, detected_object)
-            
-            if should_announce:
-                self.send_audio_command(current_distance, detected_object)
+        # 🔧 EVEN STRICTER: Only trust ultrasonic for very close objects
+        # MODE 1: ULTRASONIC-ONLY (safety - trust for very close objects)
+        if current_distance <= 1.2:  # Changed from 1.5 to 1.2 - only very close
+            vibration_type = self.determine_vibration_type(current_distance)
+            if self.should_vibrate(current_distance, vibration_type):
+                self.send_vibration_command(vibration_type)
+                self.last_vibration_type = vibration_type
+                self.last_vibration_distance = current_distance
+                self.last_vibration_time = time.time()
+                self.vibration_active = True
                 
-                # Update tracking variables
+                # Use generic object name if no good camera detection
+                if center_detection and center_detection.results[0].hypothesis.score >= 0.75:
+                    class_id = int(center_detection.results[0].hypothesis.class_id)
+                    detected_object = self.convert_id_to_name(class_id)
+                else:
+                    detected_object = "object"
+                    
+                self.get_logger().info(f"📳 Ultrasonic mode: {vibration_type} for {detected_object} at {current_distance:.1f}m")
+        
+        # MODE 2: COMBINED MODE - MUCH STRICTER
+        elif center_detection and center_detection.results[0].hypothesis.score >= 0.85:  # Increased confidence from 0.75 to 0.85
+            class_id = int(center_detection.results[0].hypothesis.class_id)
+            detected_object = self.convert_id_to_name(class_id)
+            
+            vibration_type = self.determine_vibration_type(current_distance)
+            if vibration_type and self.should_vibrate(current_distance, vibration_type):
+                self.send_vibration_command(vibration_type)
+                self.last_vibration_type = vibration_type
+                self.last_vibration_distance = current_distance
+                self.last_vibration_time = time.time()
+                self.vibration_active = True
+                self.get_logger().info(f"📳 Combined mode: {vibration_type} for {detected_object} at {current_distance:.1f}m")
+            
+            # 🔊 AUDIO LOGIC (only in combined mode)
+            if self.should_announce(current_distance, detected_object):
+                self.send_audio_command(current_distance, detected_object)
                 self.last_announced_object = detected_object
                 self.last_announced_distance = current_distance
                 self.last_announcement_time = time.time()
-                
                 self.get_logger().info(f"🔊 Announced: {detected_object} at {current_distance:.1f}m")
-            else:
-                self.get_logger().debug(f"🔇 Filtered audio: {detected_object} at {current_distance:.1f}m")
+        
         else:
-            # Log when audio is skipped due to low confidence
-            if current_distance <= 3.0 and confidence < 0.75:
-                self.get_logger().debug(f"🔇 Audio skipped: {detected_object} at {current_distance:.1f}m (confidence too low: {confidence:.2f})")
+            # No good detection or confidence too low - stop vibration
+            if self.vibration_active:
+                self.send_vibration_command("Stop")
+                self.vibration_active = False
+                self.last_vibration_type = None
 
     def convert_id_to_name(self, class_id):
         class_names = {
@@ -210,7 +294,7 @@ class ObstacleFusionNode(Node):
             self.send_vibration_command("Fast")
         elif distance <= 2:
             self.send_vibration_command("Medium")
-        elif distance <= 3:
+        elif distance <= 2.4:
             self.send_vibration_command("Slow")
     
     def send_audio_command(self, distance, detected_object):
@@ -234,7 +318,7 @@ class ObstacleFusionNode(Node):
         elif distance <= 2.0 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
             self.send_vibration_command("Medium")
-        elif distance <= 2.5 and yolo_confidence >= 0.75:
+        elif distance <= 2.4 and yolo_confidence >= 0.75:
             self.send_audio_command(distance, detected_object)
             self.send_vibration_command("Slow")  
 
@@ -265,7 +349,7 @@ def main(args=None):
     node = ObstacleFusionNode()
     
     # Uncomment to run tests:
-    # test(node)
+    #test(node)
     
     rclpy.spin(node)
     rclpy.shutdown()

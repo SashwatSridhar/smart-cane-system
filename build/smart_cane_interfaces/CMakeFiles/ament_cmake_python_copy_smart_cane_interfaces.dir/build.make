@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sashwat/smart-cane-system/src/smart_cane_interfaces
+CMAKE_SOURCE_DIR = /home/ubuntu/smart-cane-system/src/smart_cane_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sashwat/smart-cane-system/build/smart_cane_interfaces
+CMAKE_BINARY_DIR = /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
 
 # Utility rule file for ament_cmake_python_copy_smart_cane_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/compiler_de
 include CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces:
-	/usr/bin/cmake -E copy_directory /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/ament_cmake_python/smart_cane_interfaces/smart_cane_interfaces
+	/usr/bin/cmake -E copy_directory /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/ament_cmake_python/smart_cane_interfaces/smart_cane_interfaces
 
 ament_cmake_python_copy_smart_cane_interfaces: CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces
 ament_cmake_python_copy_smart_cane_interfaces: CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/depend:
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_copy_smart_cane_interfaces.dir/depend
 

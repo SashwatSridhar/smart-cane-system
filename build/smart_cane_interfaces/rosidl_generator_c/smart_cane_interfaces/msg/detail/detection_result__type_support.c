@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "smart_cane_interfaces/msg/detail/detection_result__functions.h"
-#include "smart_cane_interfaces/msg/detail/detection_result__struct.h"
 #include "smart_cane_interfaces/msg/detail/detection_result__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "smart_cane_interfaces/msg/detail/detection_result__struct.h"
+#include "smart_cane_interfaces/msg/detail/detection_result__functions.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "smart_cane_interfaces/msg/detail/ultrasonic_data__type_support.h"
-#include "smart_cane_interfaces/msg/detail/ultrasonic_data__struct.h"
-#include "smart_cane_interfaces/msg/detail/ultrasonic_data__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "smart_cane_interfaces/msg/detail/ultrasonic_data__functions.h"
+#include "smart_cane_interfaces/msg/detail/ultrasonic_data__struct.h"
 
 #ifdef __cplusplus
 extern "C"

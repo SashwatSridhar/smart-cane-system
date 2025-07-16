@@ -1,16 +1,16 @@
 {
   "package_name": "smart_cane_interfaces",
-  "output_dir": "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces",
+  "output_dir": "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_c/smart_cane_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/UltrasonicData.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/DetectionResult.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/FeedbackCommand.idl"
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/UltrasonicData.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/DetectionResult.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/FeedbackCommand.idl"
   ],
   "ros_interface_files": [
-    "/home/sashwat/smart-cane-system/src/smart_cane_interfaces/msg/UltrasonicData.msg",
-    "/home/sashwat/smart-cane-system/src/smart_cane_interfaces/msg/DetectionResult.msg",
-    "/home/sashwat/smart-cane-system/src/smart_cane_interfaces/msg/FeedbackCommand.msg"
+    "/home/ubuntu/smart-cane-system/src/smart_cane_interfaces/msg/UltrasonicData.msg",
+    "/home/ubuntu/smart-cane-system/src/smart_cane_interfaces/msg/DetectionResult.msg",
+    "/home/ubuntu/smart-cane-system/src/smart_cane_interfaces/msg/FeedbackCommand.msg"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -98,9 +98,9 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/UltrasonicData.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/DetectionResult.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/FeedbackCommand.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/UltrasonicData.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/DetectionResult.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/FeedbackCommand.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",
@@ -167,8 +167,8 @@
     "/opt/ros/jazzy/share/geometry_msgs/msg/WrenchStamped.idl"
   ],
   "type_description_tuples": [
-    "msg/UltrasonicData.idl:/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description/smart_cane_interfaces/msg/UltrasonicData.json",
-    "msg/DetectionResult.idl:/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description/smart_cane_interfaces/msg/DetectionResult.json",
-    "msg/FeedbackCommand.idl:/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description/smart_cane_interfaces/msg/FeedbackCommand.json"
+    "msg/UltrasonicData.idl:/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description/smart_cane_interfaces/msg/UltrasonicData.json",
+    "msg/DetectionResult.idl:/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description/smart_cane_interfaces/msg/DetectionResult.json",
+    "msg/FeedbackCommand.idl:/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_type_description/smart_cane_interfaces/msg/FeedbackCommand.json"
   ]
 }

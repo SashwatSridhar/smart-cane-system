@@ -1,11 +1,11 @@
 {
   "package_name": "smart_cane_interfaces",
-  "output_dir": "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces",
+  "output_dir": "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/UltrasonicData.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/DetectionResult.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/FeedbackCommand.idl"
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/UltrasonicData.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/DetectionResult.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces:msg/FeedbackCommand.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -87,9 +87,9 @@
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/UltrasonicData.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/DetectionResult.idl",
-    "/home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/FeedbackCommand.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/UltrasonicData.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/DetectionResult.idl",
+    "/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_adapter/smart_cane_interfaces/msg/FeedbackCommand.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",

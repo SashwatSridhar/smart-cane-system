@@ -1,1653 +1,433 @@
-[INFO] [1750787260.027049742] [vibration_node]: 🔥 Enhanced Vibration Node with Distinct Patterns initialized
-[INFO] [1750787260.028446246] [vibration_node]:    SLOW: Long gentle pulses (far objects)
-[INFO] [1750787260.028968488] [vibration_node]:    MEDIUM: Moderate pulses (medium distance)
-[INFO] [1750787260.029414008] [vibration_node]:    FAST: Rapid urgent pulses (close danger!)
-[INFO] [1750787260.059925776] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.060425833] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.159193008] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.159659454] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.263709588] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.266064538] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.359230347] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.359967256] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.459183969] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.459661378] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.563770883] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.564273236] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.662093686] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.663055615] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.760398620] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.761299492] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.859486870] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.859955167] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787260.959177177] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787260.959614901] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.061737122] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.062305216] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.163953177] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.166568981] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.262573834] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.266653382] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.360645378] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.361249139] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.459679961] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.460191166] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.559160527] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.559642566] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.662558530] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.663354569] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.759234274] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.759763664] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.860211067] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.860821642] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787261.960235690] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787261.961041711] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.058967847] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.059434441] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.160520530] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.161074476] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.260488875] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.261047099] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.361003945] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.361619780] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.459137989] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.459620472] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.563291272] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.566033298] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.662315985] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.663141691] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.765707507] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.766489675] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.860344875] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.861020562] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787262.959438107] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787262.960539387] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.059116470] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.060032065] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.160516190] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.161184081] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.259194884] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.259683256] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.362626776] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.363233519] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.461102988] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.461736842] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.559220644] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.559998905] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.659968973] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.660484604] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.759121224] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.759591336] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.859912701] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.860549185] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787263.960193178] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787263.961130958] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.059354614] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.059848911] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.159073774] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.159544960] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.264343153] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.267304587] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.359250244] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.359767949] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.459595202] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.461423633] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.559060046] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.559543177] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.667525915] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.674179619] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.760133556] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.760779687] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.860202328] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.860680885] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787264.959264672] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787264.959762728] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.064920755] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.067028668] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.160168070] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.161742722] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.260260879] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.260790529] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.360457615] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.361056876] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.461358352] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.461997854] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.560820956] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.562377016] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.661359082] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.661897898] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.759224885] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.759738886] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.860977217] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.862135369] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787265.959379689] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787265.959953838] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.059771536] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.060394556] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.159705271] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.160639885] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.259345709] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.259831451] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.368290580] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.370605715] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.463750599] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.464430138] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.563226758] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.563844279] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.659006797] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.659503113] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.759479552] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.760451573] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.861642793] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.862255591] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787266.959445615] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787266.960039228] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.059230220] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.059770166] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.164582451] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.165481491] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.262648348] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.263763370] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.359211500] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.359801428] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.459168606] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.459681737] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.559343156] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.559851139] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.666138743] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.667048913] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.759124663] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.759626461] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.860388662] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.860862644] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787267.960087211] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787267.961218066] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787268.061558821] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787268.067903819] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787268.159992385] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787268.160553128] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787268.260159103] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787268.260661326] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787268.359192576] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787268.359668411] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787268.459544850] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787268.460108222] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787268.561587276] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787268.562169537] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787283.460050808] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787283.460780921] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787283.560498881] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787283.561264864] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787283.659217356] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787283.659836080] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787283.759199020] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787283.759691169] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787283.862354803] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787283.862999657] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787283.965348123] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787283.967814278] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787284.060336996] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787284.060895979] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787284.159595806] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787284.160114067] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787311.262118996] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787311.262818585] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787311.359089258] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787311.359547268] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787311.463145652] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787311.463915075] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787311.560811780] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787311.562007194] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787311.660642065] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787311.661114390] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787311.759196027] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787311.759671408] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787311.860185374] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787311.861369177] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787311.962188168] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787311.963962632] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.059466544] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.060021722] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.160911691] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.161414072] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.260760581] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.261304518] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.359365279] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.360327466] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.460802517] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.461528866] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.561083195] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.562017270] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.659080305] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.659568871] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.767394931] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.772281312] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.859145335] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.859650994] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787312.959275213] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787312.959767149] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.058859594] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.059349012] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.168374145] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.168988491] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.259513531] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.260470792] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.359267524] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.359756442] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.458895256] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.459360506] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.560085020] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.561631127] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.661305970] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.662167840] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.760668233] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.761147262] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.859094809] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.859575023] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787313.961262909] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787313.963752184] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.060483073] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.061443278] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.161345602] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.161905669] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.258895487] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.259372849] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.359196319] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.359684996] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.464599443] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.466236663] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.559226859] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.559837168] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.659151017] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.660459933] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.759403829] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.759895654] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.864676876] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.867924815] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787314.960092809] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787314.960640210] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.061686739] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.062371809] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.159235933] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.159695294] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.268740451] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.269485985] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.362545011] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.363149764] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.459578527] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.461091781] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.559134893] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.559589125] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.663357819] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.664393767] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.759782564] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.760709231] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.859667936] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.860227522] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787315.961085989] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787315.962538445] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.059169690] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.059918632] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.159198782] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.159747201] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.262556591] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.263164641] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.359214723] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.360129483] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.459485597] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.459984626] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.560422819] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.562770220] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.660361260] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.660950995] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.760226978] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.760967456] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.859646742] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.860142808] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787316.967028098] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787316.968657299] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.059471416] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.060258711] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.161433338] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.162208243] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.258907500] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.259362139] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.364758132] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.370549716] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.459478200] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.460384033] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.559284947] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.560078389] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.663108000] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.663684753] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.759534714] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.760577217] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.858943472] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.860540023] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787317.963610635] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787317.964833179] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.058959249] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.061439485] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.159781881] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.160437413] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.261915782] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.262542850] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.359586979] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.360384847] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.460426426] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.460968049] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.559028828] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.559512671] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.663973398] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.665467577] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.759989319] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.760543701] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.862942663] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.863849293] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787318.959124107] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787318.959589227] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.062937057] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.070114631] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.159319110] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.159832305] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.259302589] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.259827322] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.359246753] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.359766282] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.459883412] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.463027866] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.561146844] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.563077551] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.659483660] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.660008837] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.762382459] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.762989083] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.859242670] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.859703420] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787319.962934059] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787319.966682619] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.059327387] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.059840749] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.159271785] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.159781722] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.259158627] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.259669471] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.362903067] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.363706454] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.459682881] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.460182669] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.559728337] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.560200532] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.660501049] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.662627482] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.762592362] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.763207708] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.859239803] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.859744110] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787320.959860716] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787320.960425450] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787321.058929407] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787321.059940836] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787321.161301813] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787321.161991679] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787321.259230386] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787321.259818768] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787321.359811939] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787321.360476286] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787321.458934666] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787321.459411824] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787321.566252544] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787321.566818259] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787321.664086467] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787321.664564384] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787321.759134628] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787321.759819161] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787321.858887220] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787321.859345378] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787321.959384328] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787321.960447090] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.059547628] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.060617928] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.159284196] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.159905282] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.259239082] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.259991560] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.359737239] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.360223860] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.462841282] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.468364229] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.559627678] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.560168282] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.659726845] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.660240652] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.759786530] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.760350430] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.861666622] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.862236542] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787322.963497714] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787322.965140526] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787323.059390199] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787323.059920673] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787323.159161335] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787323.159833737] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787323.259057232] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787323.259822822] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787323.361594906] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787323.362143843] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787323.460612230] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787323.461349949] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787323.559507108] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787323.559997451] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787323.663244010] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787323.663800595] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787323.759453554] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787323.760023936] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787324.463286237] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787324.463946120] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787324.562553319] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787324.563033533] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787324.662184483] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787324.663566585] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787324.759278651] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787324.759789235] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787324.858980113] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787324.859462882] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787324.959222993] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787324.959923600] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787325.662140751] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787325.662672187] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787325.759276654] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787325.759808276] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787325.861248471] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787325.861959485] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787325.963001728] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787325.963545313] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787326.059646655] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787326.060865161] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787326.159167916] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787326.159660444] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787326.260619049] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787326.261441881] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787326.359282181] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787326.359804044] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787329.263954714] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787329.265116756] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787329.359157852] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787329.359635436] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787329.459332109] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787329.459978547] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787329.559266193] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787329.560073080] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787329.662446195] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787329.663005577] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787331.459541112] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787331.460000751] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787331.559739783] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787331.560220237] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787331.658928100] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787331.659378480] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787331.763116814] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787331.766490807] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787331.861449318] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787331.861964606] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787331.961420540] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787331.961935773] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787332.061306257] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787332.063409836] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787332.159157949] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787332.159631218] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787333.859197065] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787333.859670278] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787333.966226749] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787333.967367902] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787334.060769663] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787334.061206597] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787334.160013501] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787334.162106728] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787334.258896406] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787334.259352304] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787334.365083327] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787334.365748247] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787334.459696851] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787334.460220213] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787334.560326179] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787334.561419201] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787350.862630213] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787350.863227558] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787350.961545937] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787350.962124967] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787351.061831647] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787351.062798665] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787351.161362396] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787351.162592790] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787351.260917350] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.261602622] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787351.359589249] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.360561156] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787351.461362355] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.462895014] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787351.560254574] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.560747639] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787351.669778197] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.670763327] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787351.759476538] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.760156014] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787351.859373090] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.860206125] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787351.961535056] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787351.964055455] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.059578237] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.060092839] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.161931885] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.162419857] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.259818543] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.260355256] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.359186357] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.359788795] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.460301168] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.461473431] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.561519221] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.562400497] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.659770700] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.660328785] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.759235961] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.759863491] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.858857966] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.859417328] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787352.961756514] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787352.965408656] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787353.059869301] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787353.060749577] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787353.162431652] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787353.162999181] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787353.259216302] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787353.259688144] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787353.365124493] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787353.367540854] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787353.460765066] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787353.463568322] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787353.563420011] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787353.566088635] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787354.261158111] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787354.262483358] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787354.359179001] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787354.359780845] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787354.459318893] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787354.459880182] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787354.559400859] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787354.560752681] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787354.662337174] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787354.664480992] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787354.759274322] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787354.759993076] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787365.061262398] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787365.064000207] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787365.160145339] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787365.160630607] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787365.259545772] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787365.260038318] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787365.361928073] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787365.362560788] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787365.459376748] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787365.459887646] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787365.560695475] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787365.561212891] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787365.659305411] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787365.660672658] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787365.759122166] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787365.764403077] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787365.859353762] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787365.859964662] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787365.959803065] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787365.960470892] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.061044362] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.061663799] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.159174896] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.159647904] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.260207371] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.260743714] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.363244883] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.363727836] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.462117967] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.462871314] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.559188186] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.559640250] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.659314330] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.659882489] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.759528458] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.760025318] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.859265595] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.859998886] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787366.963831227] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787366.964983988] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.059902739] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.060653345] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.159226086] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.159735355] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.264237813] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.268346795] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.360595477] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.361089745] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.460270145] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.460862748] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.559147465] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.559630696] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.666892612] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.667846389] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.759549284] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.762125478] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.859225859] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.859752998] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787367.959145791] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787367.959603947] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.060856363] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.061482596] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.160151371] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.160918181] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.259712180] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.260278857] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.362561344] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.363104743] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.459157600] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.459754222] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.559302698] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.559815485] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.660883210] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.661435757] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.759154070] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.759626300] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.859295797] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.859805824] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787368.961270316] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787368.963662822] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.059577525] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.060095979] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.159254794] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.159822304] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.259038399] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.259539593] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.359459644] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.361542570] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.459409029] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.460413121] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.559110928] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.559565214] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.661393281] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.662953346] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.762658819] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.763183792] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.859961879] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.860557668] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787369.960951172] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787369.961579146] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787370.058923704] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787370.059378767] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787370.161622874] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787370.162387758] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787370.259210897] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787370.259744166] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787370.360975365] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787370.361581524] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787370.459225326] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787370.459738668] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787370.559269911] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787370.559774902] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787370.666352863] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787370.667008838] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787370.760240505] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787370.760741792] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787370.859460465] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787370.860165366] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787370.959501717] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787370.959967318] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.061242570] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.061992528] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.159148964] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.159866162] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.259413919] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.260292639] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.361292606] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.364637314] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.459150537] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.459691398] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.560052558] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.560995557] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.662596183] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.663160953] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.759148553] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.759653285] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.861641751] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.862158390] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787371.961278695] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787371.961845501] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.060149214] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.060800096] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.159147901] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.159622409] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.262393107] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.263270697] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.359623448] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.360174457] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.459676468] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.460398517] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.559508428] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.560035400] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.661722542] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.662258644] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.759964289] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.761040327] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.859099052] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.859593116] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787372.960346445] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787372.960828880] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.059523169] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.060411481] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.162695721] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.163257249] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.259233174] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.259762831] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.359671492] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.360266854] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.460030345] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.460584300] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.563338900] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.565584421] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.659510883] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.659999299] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.761604582] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787373.762120962] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787373.858953531] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787373.859416928] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787373.959908580] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787373.960681853] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787374.061149669] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787374.061771199] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787374.159311794] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787374.159957879] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787383.659643190] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787383.660519390] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787383.760416316] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787383.760966085] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787383.858968127] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787383.859428839] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787383.960072889] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787383.960916145] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787384.059897756] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787384.060384987] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787384.160700601] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787384.161493837] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787384.263968155] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787384.264634851] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787384.360091771] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787384.360753653] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787384.460627963] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787384.461641869] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787384.560519514] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787384.561850426] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787385.659187619] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787385.659731924] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787385.759212316] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787385.759740417] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787385.862211490] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787385.862808259] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787385.960401137] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787385.961020869] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787386.059670836] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787386.060254198] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787386.160254149] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787386.161019236] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787387.259831962] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787387.260756163] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787387.359483643] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787387.359998078] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787387.462639421] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787387.463494399] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787387.559366978] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787387.559873154] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787387.659064382] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787387.659539020] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787387.759195109] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787387.759689265] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787387.862041363] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787387.863137771] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787387.959990145] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787387.960569044] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787388.060202796] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787388.060675896] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787388.160847971] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787388.161336275] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787388.260587426] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787388.262456884] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787388.359757854] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787388.360644276] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787388.459256528] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787388.459750777] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787388.559301840] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787388.559787978] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787436.460701499] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787436.461228970] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787436.562057756] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787436.562666895] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787436.661890897] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787436.663861834] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787436.759277002] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787436.759881844] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787436.861413474] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787436.861938019] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787436.960932037] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787436.961603084] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.058962908] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.059431063] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.160207808] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.161157748] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.262866747] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.265262208] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.359502651] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.360144661] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.459204916] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.459739165] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.559124777] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.559608396] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.666241042] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.667104666] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.759261152] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.759908643] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.860779148] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.861365861] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787437.959199839] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787437.959677068] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.070055305] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.077565009] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.164021999] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.165028829] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.259120692] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.259664015] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.360123399] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.360693852] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.460914621] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.461625594] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.562269092] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.562841878] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.659201719] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.659751839] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.759557176] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787438.760311076] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787438.861706770] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787438.862227926] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787438.960027122] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787438.960670779] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787439.059078778] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787439.059605360] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787439.159598529] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787439.160190612] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787439.261191037] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787439.261691822] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787439.359460125] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787439.360615680] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787439.460954613] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787439.461420046] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787439.560036176] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787439.560671741] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787439.658980311] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787439.659434781] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787439.761664280] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787439.762885631] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787439.860733306] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787439.861869563] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787439.960992757] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787439.961558673] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.058962912] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.059412845] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.160377617] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.161464411] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.260227984] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.264021633] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.360055444] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.360912697] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.459141373] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.459676789] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.559157002] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.559657528] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.663637178] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.664439672] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.759781824] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.760245571] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.860315386] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.860886006] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787440.959173849] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787440.959645801] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.066363249] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.066904479] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.162753505] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.163385422] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.259917773] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.260523708] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.361876445] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.362674272] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.459814336] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.460610329] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.559705681] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.560801475] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.659120519] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.659586896] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.759213108] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.759771709] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.860011985] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.863302108] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787441.965527117] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787441.966181479] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.059555337] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.060033566] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.160377525] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.161080554] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.259163332] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.259748007] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.359447605] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.361357096] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.461184122] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.461784520] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.561017444] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.562577671] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.660194368] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.660878655] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.760363250] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787442.761022593] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787442.860514355] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787442.861056233] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787442.959963764] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787442.960453401] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.060071384] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.060889600] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.159877369] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.160479266] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.262199112] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.262910252] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.361173918] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.361877984] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.458904557] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.459385676] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.559169549] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.559654093] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.662387083] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.664219740] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.762670834] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787443.763983187] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787443.862522208] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787443.863041346] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787443.960905320] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787443.961472588] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.059463710] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.060107183] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.162680963] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.163588365] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.260594676] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.261395835] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.359290473] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.359795148] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.462253945] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.463465926] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.562664564] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.566144226] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.659371370] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.659874581] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.759426243] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.760117791] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.859471783] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.859969624] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787444.962547368] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787444.963093931] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787445.059657270] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.060246038] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.159623842] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.160171146] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.259046202] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.259531098] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.364082237] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.368346540] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.459544391] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.460223901] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.559294831] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.559821005] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.659280532] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.659755799] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.759846706] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.760477122] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.860448917] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.861177946] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787445.961241112] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787445.962212719] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.059414396] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.060513709] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.161401124] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.162040392] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.260684238] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.263663911] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.359260878] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.360736863] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.459157797] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.459662156] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.559279738] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.559808209] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.661184131] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.661736324] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.759535805] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.760251927] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.861266659] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.861926298] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787446.966921143] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787446.967482392] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.059808661] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.060617710] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.160354512] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.164039010] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.259152060] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.259640011] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.359280960] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.359778226] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.459225432] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.459707865] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.566955924] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.568421038] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.659192117] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.659743365] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.759351721] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.759860154] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.860217558] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.861985528] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787447.959464612] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787447.960057732] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.059390822] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.060047739] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.159554312] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.160088079] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.258973624] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.259509891] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.360702099] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.365308555] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.463331458] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.464063357] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.559616854] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.560645425] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.659191631] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.659679879] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.767861041] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.770534783] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.859175235] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.859668854] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787448.961921188] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787448.962460715] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787449.058984612] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787449.059448730] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787449.160284133] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787449.160979365] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787450.866094498] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787450.867612853] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787450.960383451] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787450.961317372] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787451.059945570] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.061245682] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.159541633] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.160061363] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.265017948] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.267324481] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.359788478] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.361243888] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.459251891] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.459835529] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.559127588] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.559630873] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.663169900] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.663782742] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.760760064] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.761263719] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.858988533] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.859578689] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787451.959229883] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787451.960679885] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.061253460] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.061852635] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.161556844] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.162085630] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.264042556] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.264634528] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.359799042] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.360318235] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.459782236] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.460255836] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.566500139] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.567297206] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.659175691] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.659731644] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.759414519] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.759906415] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.859860979] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.860377839] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787452.964085013] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787452.965657739] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.059441842] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.060131204] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.161394969] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.161986533] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.258896828] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.259358427] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.370661854] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.371510218] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.461584415] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.462456817] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.562574269] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.563203129] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.659619917] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.660111498] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.759444087] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.760052004] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.860942689] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.861552124] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787453.959337376] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787453.960064701] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787454.058932633] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787454.059379435] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787454.160014169] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787454.160598770] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787454.262055367] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787454.262578115] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787454.359700373] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787454.360267992] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787454.459627059] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787454.460156178] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787454.559108739] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787454.559583857] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787454.660567133] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787454.661058418] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787454.761084920] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787454.761911969] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787454.860601138] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787454.861472669] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787454.960103448] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787454.960583251] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.064343305] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.065119612] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.159707756] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.160196522] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.260059315] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.260540192] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.359623567] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.360142056] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.459763753] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.466611998] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.561118511] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.561779780] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.662611605] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.663303393] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.759257797] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.759772897] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.864046605] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.864741522] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787455.960665037] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787455.961294194] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.060164563] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.060621088] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.159405862] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.159923536] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.263124206] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.265269904] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.361289972] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.361879480] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.459052379] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.459614387] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.559298304] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.559803422] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.660083236] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.660669726] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.761906590] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.762612730] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.860278599] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.860884015] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787456.959302210] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787456.959945868] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787457.060803576] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787457.062804938] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787457.159452493] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787457.159976389] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787457.259212018] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787457.259732989] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787457.366200294] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787457.369474192] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787457.460240571] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787457.461023249] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787457.560586920] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787457.561073723] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787457.659541007] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787457.660102201] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787457.760680589] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787457.761182448] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787457.860784878] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787457.861299015] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787457.959197403] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787457.959656632] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.059186800] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787458.059818475] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787458.159690758] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787458.161326003] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787458.259688542] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.260480664] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.359624992] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.360646691] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.459060805] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.459709462] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.560573148] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.562386544] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.660034369] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.660563321] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.759352588] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.759864632] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.858851920] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.859326186] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787458.961734856] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787458.964037648] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787459.061734657] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787459.063253401] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787459.160676460] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787459.161249153] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787459.259201238] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787459.259691282] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787459.360111365] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787459.360881135] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787459.459430118] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787459.459933865] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787459.559417620] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787459.560000943] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787459.662274830] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787459.663918390] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787459.759343384] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787459.759838262] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787459.859481185] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787459.860057008] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787459.959353149] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787459.959982880] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787460.059211593] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.059669432] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.159209499] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.159863564] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.259799655] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.260503776] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.361485197] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.362129521] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.459233794] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.460622499] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.560454829] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.560944984] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.659041623] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.659514111] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.759355016] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.759856671] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.861024909] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.861980978] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787460.959353978] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787460.959829169] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.069075352] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787461.070884081] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787461.159207302] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787461.159948460] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787461.262501899] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.263015833] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.359293147] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.359774764] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.460880720] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.461671639] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.562267661] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.563150952] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.660552152] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.661050103] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.759432854] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.759965973] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.859131086] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.859696761] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787461.959968742] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787461.960906663] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787462.059082686] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.059576693] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.159426480] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.159928838] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.259047800] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.259492065] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.361493067] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.362142169] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.460817180] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.461424188] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.560075884] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.561225270] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.661023167] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.661488359] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.759510231] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.760091739] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.859140329] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.860012915] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787462.959726904] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787462.960254911] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.063499021] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.064177845] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.161200940] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.162138490] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.259879559] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.260375492] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.359710434] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.360206515] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.461395428] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.463467364] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.560487811] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.561234988] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.659277820] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.659757568] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.763887966] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.764593791] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.861860426] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.862437453] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787463.960918939] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787463.962539832] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787464.060979093] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787464.061556879] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787464.159119460] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787464.159630875] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787464.259309300] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787464.259816251] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787464.359156413] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787464.359703994] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787464.462046031] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787464.462592538] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787464.559965524] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787464.560788628] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787465.059911929] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787465.060493215] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787465.159181771] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787465.159668204] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787465.267579574] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.271373571] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787465.361170115] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.361680196] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787465.461752290] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.463147735] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787465.561909681] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.562399447] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787465.658882047] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.659345998] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787465.761298710] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.761885404] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787465.859606780] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.860218473] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787465.961007133] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787465.961708754] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.059994895] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.060544180] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.163302863] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.164128301] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.259959999] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.260454839] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.359209967] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.359736845] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.459135722] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.459634637] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.563926211] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.565762181] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.660654200] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.662090813] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.760360471] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.760843181] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.861345092] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.864690527] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787466.959592472] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787466.960108294] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787467.059246814] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787467.059826804] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787467.162225682] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787467.162728837] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787467.259780012] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787467.261532777] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787467.361945535] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787467.362745528] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787467.459404975] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787467.459966483] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787467.559169502] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787467.559693250] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787467.658900011] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787467.659396851] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787467.760688751] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787467.762349552] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787467.863013554] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787467.863656285] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787467.959390387] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787467.959976617] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.060773212] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.061296682] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.159112586] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.159587815] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.264198461] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.265553054] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.360795441] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.361337634] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.460972064] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.461442496] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.564314711] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.564898274] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.661600386] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.662240005] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.760590121] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.761177777] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.862046427] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.863421205] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787468.963478363] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787468.963993537] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.059669780] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.060262381] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.159648025] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.160167940] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.259115190] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.259686753] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.359304697] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.359834279] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.460940484] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.461488807] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.562922517] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.564630355] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.659698051] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.660491340] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.760231601] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.760818016] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.859049201] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.859536985] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787469.961060308] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787469.963263190] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787470.059671440] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787470.060225670] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787470.161738544] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787470.162367460] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787470.259948910] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787470.260447806] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787470.363567202] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787470.365891734] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787479.259921809] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787479.260503632] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787479.359197067] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787479.359702796] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787479.459320003] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787479.459815918] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787479.561966511] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787479.562443535] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787479.659176871] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787479.659864417] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787479.759669238] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787479.760366784] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787479.859233092] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787479.859740488] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787479.965294016] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787479.966141934] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.060519032] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.061410026] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.159481450] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.164048566] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.258826835] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.259293656] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.360479418] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.361250503] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.461774497] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.462399412] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.559532027] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.560575467] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.659280400] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.659798499] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.759155367] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.759712133] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.861597386] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.865320880] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787480.960118816] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787480.960658083] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.059465311] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.060112468] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.159620871] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.160145841] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.263745909] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.264203989] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.359197851] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.359674616] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.459153815] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.459744193] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.562075597] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.562548048] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.659083300] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.659656919] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.759231285] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787481.760187372] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787481.860124281] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787481.861305908] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787481.959281827] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787481.959774963] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787484.060201855] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787484.061294332] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787484.161325714] [vibration_node]: 📳 Vibration command: Slow
-[INFO] [1750787484.161863462] [vibration_node]: 💙 SLOW vibration: Far object detected
-[INFO] [1750787484.259382977] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787484.259897409] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787484.360849748] [vibration_node]: 📳 Vibration command: Medium
-[INFO] [1750787484.361310235] [vibration_node]: 🟡 MEDIUM vibration: Medium distance object
-[INFO] [1750787484.459037123] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787484.459522223] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787484.560793047] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787484.561448333] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787484.659167832] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787484.659685839] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787484.759450717] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787484.759938187] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787484.861401773] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787484.861951724] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787484.959910264] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787484.960914666] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.062429954] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.063386096] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.160495473] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.161149260] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.261728701] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.262231726] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.359509809] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.361086626] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.462657099] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.464365473] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.559328600] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.559847551] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.659074937] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.659709538] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.759156872] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.759639545] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.862537517] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.863144155] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787485.959355464] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787485.960038547] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.059147245] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.059634918] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.162038251] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.162850613] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.269345277] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.270093102] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.368263490] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.369218188] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.472186805] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.480273227] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.561248777] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.562101214] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.660456400] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.661522840] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.761569808] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.762452950] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.860413224] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.861170308] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787486.960958346] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787486.961585688] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.061924325] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.067398304] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.162549038] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.164075502] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.259565629] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.260159841] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.359346702] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.359823856] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.459078126] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.459591318] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.561023264] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.563310701] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.662391487] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.663746245] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.761012229] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.761481217] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.861156751] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.861700628] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787487.962580049] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787487.963314484] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.059614324] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.060174442] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.165592641] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.168085507] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.269002166] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.270401925] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.362086536] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.362678025] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.463620739] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.466249940] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.561208576] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.561778898] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.659826649] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.660564492] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.761168498] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.761704301] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.860494561] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.862505106] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787488.964211904] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787488.965131139] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.060101402] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.060996562] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.161233005] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.162451335] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.260095448] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.260687566] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.359697697] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.360252519] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.464103046] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.465502768] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.559745428] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.560336787] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.659568495] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.662617201] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.762189857] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.762801087] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.858946513] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.859449390] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787489.960941183] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787489.961472375] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787490.059207653] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787490.059780883] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787490.160038359] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787490.160593293] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
-[INFO] [1750787490.261272719] [vibration_node]: 📳 Vibration command: Fast
-[INFO] [1750787490.261846153] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT - DANGER!
+[INFO] [1752679937.940163988] [vibration_node]: 🔥 Enhanced Vibration Node (2.5m range optimized)
+[INFO] [1752679937.942267455] [vibration_node]: 💙 SLOW: Gentle pulses (2.0-2.5m range)
+[INFO] [1752679937.942997333] [vibration_node]: 🟡 MEDIUM: Moderate pulses (1.0-2.0m range)
+[INFO] [1752679937.943831953] [vibration_node]: 🔴 FAST: Urgent pulses (<1.0m - DANGER!)
+[INFO] [1752679939.023387905] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.025578540] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.061004066] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.061654628] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.153815575] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.154613288] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.252109699] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.252845633] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.350524972] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.351190164] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.450444039] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.451140639] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.553632752] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.554602818] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.654715164] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.655590285] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.751379771] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.752071908] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.850611978] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.851165651] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679939.951860744] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679939.953199018] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.050066607] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.050591501] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.151427521] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.153521210] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.252203799] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.252849195] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.351044038] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.351852935] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.451178180] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.452000892] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.551245932] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.551745585] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.650207598] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.650888457] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.751233008] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.751824922] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.850372287] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.851563300] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679940.950754135] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679940.952166558] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.052606739] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.053662676] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.151716608] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.152472968] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.250973128] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.251808581] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.353047252] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.353620573] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.450164619] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.452034935] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.553687924] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.554424580] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.652893703] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.653486061] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.753222863] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.753835685] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.850056579] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.850582252] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679941.960174103] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679941.966144815] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.050860716] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.051830245] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.151468600] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.151985495] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.252536100] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.253923097] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.350087341] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.350613513] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.452578671] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.453122529] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.550072707] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.550630861] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.650952576] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.651516971] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.749971943] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.750493486] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.850527086] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.853939252] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679942.952859174] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679942.954273281] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.050692787] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.051459239] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.150014767] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.150617514] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.252874618] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.253693200] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.355842099] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.356475347] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.451889804] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.452475866] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.550162810] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.550701297] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.650089944] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.650728303] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.755749417] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.757911755] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.850146790] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.850667943] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679943.950241537] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679943.951709830] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.050100633] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.050620750] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.155156061] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.156109886] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.250377515] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.251017559] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.350067238] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.350563465] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.450164891] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.450682897] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.555401080] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.556873281] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.653888476] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.654652206] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.750813058] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.751420435] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.850558115] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.851189122] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679944.950281228] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679944.950960661] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.053807417] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.056381425] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.151642044] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.152232699] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.252659983] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.254634634] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.350163311] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.350685687] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.461078652] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.462691595] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.551151197] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.552421970] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.650696788] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.651221534] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.750035357] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.750532825] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.850687163] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.851209706] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679945.950846889] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679945.952855448] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.051293877] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.051876217] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.150016180] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.150876189] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.254147206] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.254865787] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.355267922] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.355826817] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.452968602] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.453626998] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.552313393] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.552799472] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.650173278] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.650693265] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.750307410] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.751031066] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.851338885] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.854324417] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679946.951076050] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679946.951691020] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.050482414] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.051054383] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.152183580] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.152828161] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.254816774] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.256119565] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.350474746] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.351085233] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.450942565] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.452101762] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.554128172] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.556023618] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.659987103] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.660608832] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.750462613] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.751313863] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.850620929] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.851121008] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679947.950079108] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679947.950622262] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.050377369] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.051281323] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.156463227] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.157192623] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.251447135] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.252067827] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.350323769] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.351214445] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.450048041] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.450582677] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.555225260] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.558357627] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.650830101] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.651331162] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.750322093] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.751238844] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.854063223] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.855390885] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679948.955956889] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679948.956643822] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.051884917] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.052437089] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.152952721] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.153644265] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.250498469] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.251099697] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.356194432] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.356869050] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.451765623] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.452293276] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.553048743] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.553676620] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.651947709] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.652609253] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.750030797] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.750706581] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.855584351] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.856973180] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679949.951022059] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679949.951661621] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.051057258] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.051553448] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.151307570] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.151871724] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.252288130] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.253242900] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.351859713] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.352949521] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.451991061] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.452513122] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.550036313] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.550528188] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.653396694] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.661731134] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.750511288] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.751077146] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.852505230] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.853136681] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679950.951695475] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679950.952225018] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679951.050286788] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679951.050968406] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679951.153581260] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679951.154128080] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679951.256434134] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679951.259116959] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679951.350125209] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679951.350636752] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679951.451236621] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679951.451773146] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679951.552503980] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679951.553140820] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679951.650292301] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679951.650858511] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679951.750128533] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679951.751134859] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679951.850261250] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679951.850763033] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679951.961463397] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679951.964480040] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.051298857] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.051999198] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.152333841] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.153689281] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.251839790] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.253972368] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.353214592] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.354103638] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.450777688] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.451441843] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.550184654] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.550770531] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.650114793] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.650648354] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.751448854] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.751993452] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.853346477] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.860898333] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679952.950221454] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679952.950698718] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.052102112] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.052636229] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.150062933] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.150596475] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.254344541] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.264232737] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.353330706] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.356679148] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.451159303] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.453051045] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.551214404] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.551833262] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.653193470] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.655459753] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.751301607] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.752627565] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.851246596] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.852239884] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679953.954399804] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679953.955852171] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.052067176] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.053134299] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.151890533] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.152641319] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.251382016] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.251908355] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.353484323] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.372685579] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.452186353] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.453619386] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.555527265] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.556133605] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.650133104] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.650635832] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.751510681] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.753060568] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.850353417] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.851085239] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679954.959809559] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679954.960502770] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.052390803] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.053266330] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.151440502] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.154173049] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.250240420] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.250759592] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.351425586] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.353574312] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.451672835] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.452467417] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.550325067] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.551111741] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.650116736] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.650632853] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.750628839] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.751167604] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.850507714] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.852477179] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679955.951387136] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679955.951954827] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.051313584] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.051918868] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.150432930] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.150983640] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.250208117] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.250759826] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.350509272] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.351056814] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.454154221] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.454705226] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.551466807] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.552311779] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.652099966] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.653162032] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.751347499] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.753401057] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.851123463] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.851723617] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679956.952996245] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679956.953521862] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.050167515] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.050797911] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.151795960] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.152330725] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.250212816] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.250770452] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.349994501] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.350488673] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.451793263] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.453301834] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.552604273] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.553137649] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.650239843] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.650792053] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.750697443] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.751304153] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.852260517] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.852770670] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679957.951741995] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679957.963201225] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679958.051116027] [vibration_node]: 📳 Vibration command received: Fast
+[INFO] [1752679958.051650773] [vibration_node]: 🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!
+[INFO] [1752679958.150034831] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679958.150706153] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679958.252191669] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679958.252898084] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679958.351773628] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679958.352323930] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679958.452743528] [vibration_node]: 📳 Vibration command received: Medium
+[INFO] [1752679958.453458350] [vibration_node]: 🟡 MEDIUM vibration: Medium distance (1.0-2.0m)
+[INFO] [1752679958.552242301] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679958.553063309] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679958.652364988] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679958.653029995] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679958.751977558] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679958.752942698] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679958.855164259] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679958.855903600] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679958.953535946] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679958.954314787] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.050386783] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.051327275] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.150212207] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.150828120] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.262396498] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.263434750] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.361417376] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.363478657] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.451145324] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.452776452] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.551136231] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.552608209] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.652109295] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.657816466] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.751399417] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.753773404] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.857267717] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.858174912] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679959.951423952] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679959.952285905] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
+[INFO] [1752679960.050860259] [vibration_node]: 📳 Vibration command received: Slow
+[INFO] [1752679960.051785084] [vibration_node]: 💙 SLOW vibration: Far object (2.0-2.5m)
 Traceback (most recent call last):
-  File "/home/sashwat/smart-cane-system/src/smart_cane_system/smart_cane_system/vibration_node.py", line 91, in main
+  File "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system/vibration_node.py", line 94, in main
     rclpy.spin(node)
   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
     executor.spin_once()
@@ -1666,9 +446,10 @@ rclpy.executors.ExternalShutdownException
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/sashwat/smart-cane-system/src/smart_cane_system/smart_cane_system/vibration_node.py", line 100, in <module>
-    main()
-  File "/home/sashwat/smart-cane-system/src/smart_cane_system/smart_cane_system/vibration_node.py", line 97, in main
+  File "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system/vibration_node", line 33, in <module>
+    sys.exit(load_entry_point('smart-cane-system==0.0.0', 'console_scripts', 'vibration_node')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system/vibration_node.py", line 99, in main
     rclpy.shutdown()
   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
     _shutdown(context=context)

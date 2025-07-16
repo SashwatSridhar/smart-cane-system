@@ -1,8 +1,8 @@
 {
   "package_name": "smart_cane_interfaces",
   "non_idl_tuples": [
-    "/home/sashwat/smart-cane-system/src/smart_cane_interfaces:msg/UltrasonicData.msg",
-    "/home/sashwat/smart-cane-system/src/smart_cane_interfaces:msg/DetectionResult.msg",
-    "/home/sashwat/smart-cane-system/src/smart_cane_interfaces:msg/FeedbackCommand.msg"
+    "/home/ubuntu/smart-cane-system/src/smart_cane_interfaces:msg/UltrasonicData.msg",
+    "/home/ubuntu/smart-cane-system/src/smart_cane_interfaces:msg/DetectionResult.msg",
+    "/home/ubuntu/smart-cane-system/src/smart_cane_interfaces:msg/FeedbackCommand.msg"
   ]
 }

@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ROS2 Camera Node",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/smart_cane_system/smart_cane_system/camera_node.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "/opt/ros/jazzy/lib/python3.12/site-packages:${workspaceFolder}/install/smart_cane_system/lib/python3.12/site-packages",
+                "ROS_DOMAIN_ID": "0"
+            },
+            "preLaunchTask": "source ros2"
+        }
+    ]
+}

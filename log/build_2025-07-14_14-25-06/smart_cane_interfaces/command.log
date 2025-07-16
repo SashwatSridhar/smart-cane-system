@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/smart-cane-system/build/smart_cane_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/smart-cane-system/build/smart_cane_interfaces -- -j4 -l4
+Invoked command in '/home/ubuntu/smart-cane-system/build/smart_cane_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ubuntu/smart-cane-system/build/smart_cane_interfaces -- -j4 -l4
+Invoking command in '/home/ubuntu/smart-cane-system/build/smart_cane_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
+Invoked command in '/home/ubuntu/smart-cane-system/build/smart_cane_interfaces' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ubuntu/smart-cane-system/build/smart_cane_interfaces

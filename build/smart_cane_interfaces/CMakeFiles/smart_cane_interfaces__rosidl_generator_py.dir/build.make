@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sashwat/smart-cane-system/src/smart_cane_interfaces
+CMAKE_SOURCE_DIR = /home/ubuntu/smart-cane-system/src/smart_cane_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sashwat/smart-cane-system/build/smart_cane_interfaces
+CMAKE_BINARY_DIR = /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o: CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o: rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o: CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o -MF CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o.d -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o -c /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o -MF CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o.d -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.o -c /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c > CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c > CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.i
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_ultrasonic_data_s.c.s
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o: CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o: rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o: CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o -MF CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o.d -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o -c /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o -MF CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o.d -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.o -c /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c > CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c > CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.i
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_detection_result_s.c.s
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o: CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/flags.make
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o: rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o: CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o -MF CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o.d -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o -c /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o -MF CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o.d -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.o -c /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c > CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c > CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.i
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sashwat/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c -o CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/rosidl_generator_py/smart_cane_interfaces/msg/_feedback_command_s.c.s
 
 # Object files for target smart_cane_interfaces__rosidl_generator_py
 smart_cane_interfaces__rosidl_generator_py_OBJECTS = \
@@ -161,7 +161,7 @@ libsmart_cane_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/libbuiltin_
 libsmart_cane_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libsmart_cane_interfaces__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libsmart_cane_interfaces__rosidl_generator_py.so: CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libsmart_cane_interfaces__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libsmart_cane_interfaces__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/clean
 
 CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/depend:
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/smart_cane_interfaces__rosidl_generator_py.dir/depend
 

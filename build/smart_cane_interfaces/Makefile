@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sashwat/smart-cane-system/src/smart_cane_interfaces
+CMAKE_SOURCE_DIR = /home/ubuntu/smart-cane-system/src/smart_cane_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sashwat/smart-cane-system/build/smart_cane_interfaces
+CMAKE_BINARY_DIR = /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles /home/sashwat/smart-cane-system/build/smart_cane_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles /home/ubuntu/smart-cane-system/build/smart_cane_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -415,7 +415,7 @@ smart_cane_interfaces__py: cmake_check_build_system
 
 # fast build rule for target.
 smart_cane_interfaces__py/fast:
-	$(MAKE) $(MAKESILENT) -f /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build.make /home/sashwat/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build
+	$(MAKE) $(MAKESILENT) -f /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build.make /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/smart_cane_interfaces__py/CMakeFiles/smart_cane_interfaces__py.dir/build
 .PHONY : smart_cane_interfaces__py/fast
 
 rosidl_generator_c/smart_cane_interfaces/msg/detail/detection_result__description.o: rosidl_generator_c/smart_cane_interfaces/msg/detail/detection_result__description.c.o

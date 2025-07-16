@@ -13,7 +13,6 @@ smart_cane_system/__init__.py
 smart_cane_system/camera_node.py
 smart_cane_system/obstacle_fusion.py
 smart_cane_system/speaker_node.py
-smart_cane_system/ubuntu_camera_test.py
 smart_cane_system/ultrasonic_node.py
 smart_cane_system/vibration_node.py
 smart_cane_system/yolo_detection_node.py

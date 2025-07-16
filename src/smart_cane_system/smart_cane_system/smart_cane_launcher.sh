@@ -20,12 +20,13 @@ cleanup() {
     # Wait a moment for graceful shutdown
     sleep 2
     
-    # Force kill any remaining processes
-    pkill -f "camera_node.py"
-    pkill -f "yolo_detection_node.py" 
-    pkill -f "ultrasonic_node.py"
+    # Force kill any remaining ROS2 processes
+    pkill -f "camera_node"
+    pkill -f "yolo_detection_node" 
+    pkill -f "ultrasonic_node"
     pkill -f "obstacle_fusion"
-    pkill -f "vibration_node.py"
+    pkill -f "vibration_node"
+    pkill -f "speaker_node"
     
     echo "✅ Smart Cane System stopped"
     echo "📋 Check logs/ directory for any error messages"
@@ -41,11 +42,15 @@ if ! command -v ros2 &> /dev/null; then
     source /opt/ros/jazzy/setup.bash
 fi
 
+# Source workspace
+echo "🔧 Sourcing workspace..."
+source ~/smart-cane-system/install/setup.bash
+
 echo "🎬 Starting nodes in sequence..."
 
 # Start Camera Node
 echo "📷 Starting Camera Node..."
-python3 camera_node.py > logs/camera.log 2>&1 &
+ros2 run smart_cane_system camera_node > logs/camera.log 2>&1 &
 CAMERA_PID=$!
 sleep 2
 
@@ -58,7 +63,7 @@ echo "   ✅ Camera node started (PID: $CAMERA_PID)"
 
 # Start YOLO Detection Node  
 echo "🧠 Starting YOLO Detection Node..."
-python3 yolo_detection_node.py > logs/yolo.log 2>&1 &
+ros2 run smart_cane_system yolo_detection_node > logs/yolo.log 2>&1 &
 YOLO_PID=$!
 sleep 3
 
@@ -70,7 +75,7 @@ echo "   ✅ YOLO detection started (PID: $YOLO_PID)"
 
 # Start Ultrasonic Node
 echo "📡 Starting Ultrasonic Sensor Node..."
-python3 ultrasonic_node.py > logs/ultrasonic.log 2>&1 &
+ros2 run smart_cane_system ultrasonic_node > logs/ultrasonic.log 2>&1 &
 ULTRASONIC_PID=$!
 sleep 2
 
@@ -82,7 +87,7 @@ echo "   ✅ Ultrasonic sensor started (PID: $ULTRASONIC_PID)"
 
 # Start Obstacle Fusion Node (The Brain!)
 echo "⚙️  Starting Obstacle Fusion Node..."
-python3 obstacle_fusion.py > logs/fusion.log 2>&1 &
+ros2 run smart_cane_system obstacle_fusion_node > logs/fusion.log 2>&1 &
 FUSION_PID=$!
 sleep 2
 
@@ -94,7 +99,7 @@ echo "   ✅ Obstacle fusion started (PID: $FUSION_PID)"
 
 # Start Vibration Node
 echo "📳 Starting Vibration Feedback Node..."
-python3 vibration_node.py > logs/vibration.log 2>&1 &
+ros2 run smart_cane_system vibration_node > logs/vibration.log 2>&1 &
 VIBRATION_PID=$!
 sleep 2
 
@@ -103,6 +108,18 @@ if ! kill -0 $VIBRATION_PID 2>/dev/null; then
     exit 1
 fi
 echo "   ✅ Vibration feedback started (PID: $VIBRATION_PID)"
+
+# Start Speaker Node
+echo "🔊 Starting Speaker Node..."
+ros2 run smart_cane_system speaker_node > logs/speaker.log 2>&1 &
+SPEAKER_PID=$!
+sleep 2
+
+if ! kill -0 $SPEAKER_PID 2>/dev/null; then
+    echo "❌ Speaker node failed to start! Check logs/speaker.log"
+    exit 1
+fi
+echo "   ✅ Speaker started (PID: $SPEAKER_PID)"
 
 echo ""
 echo "🎉 SMART CANE SYSTEM RUNNING!"
@@ -113,13 +130,12 @@ echo "   🧠 YOLO Detection:   PID $YOLO_PID"
 echo "   📡 Ultrasonic:       PID $ULTRASONIC_PID"
 echo "   ⚙️  Obstacle Fusion:  PID $FUSION_PID"
 echo "   📳 Vibration:        PID $VIBRATION_PID"
-echo ""
-echo "📺 YOLO Detection Window should be open - you can see what the cane detects!"
+echo "   🔊 Speaker:          PID $SPEAKER_PID"
 echo ""
 echo "🦯 Your Smart Cane is ready for navigation!"
 echo "   • Point at objects to see detection boxes"
 echo "   • Feel vibration patterns as you get closer:"
-echo "     💙 Slow pulses:   Far objects (2-3m)"
+echo "     💙 Slow pulses:   Far objects (2-2.4m)"
 echo "     🟡 Medium rhythm: Medium distance (1-2m)" 
 echo "     🔴 Rapid buzzing: Close danger (<1m)"
 echo ""
@@ -129,35 +145,13 @@ echo ""
 # Monitor processes and keep script running
 while true; do
     # Check if any critical process died
-    if ! kill -0 $CAMERA_PID 2>/dev/null; then
-        echo "❌ Camera node crashed! Check logs/camera.log"
-        break
-    fi
-    
-    if ! kill -0 $YOLO_PID 2>/dev/null; then
-        echo "❌ YOLO node crashed! Check logs/yolo.log"
-        break
-    fi
-    
-    if ! kill -0 $ULTRASONIC_PID 2>/dev/null; then
-        echo "❌ Ultrasonic node crashed! Check logs/ultrasonic.log"
-        break
-    fi
-    
-    if ! kill -0 $FUSION_PID 2>/dev/null; then
-        echo "❌ Fusion node crashed! Check logs/fusion.log"
-        break
-    fi
-    
-    if ! kill -0 $VIBRATION_PID 2>/dev/null; then
-        echo "❌ Vibration node crashed! Check logs/vibration.log"
-        break
-    fi
+    for pid in $CAMERA_PID $YOLO_PID $ULTRASONIC_PID $FUSION_PID $VIBRATION_PID $SPEAKER_PID; do
+        if ! kill -0 $pid 2>/dev/null; then
+            echo "❌ A critical process crashed! Check logs/"
+            cleanup
+        fi
+    done
     
     # Wait before next check
     sleep 5
 done
-
-# If we get here, a process crashed
-echo "🚨 A critical process crashed - stopping system"
-cleanup

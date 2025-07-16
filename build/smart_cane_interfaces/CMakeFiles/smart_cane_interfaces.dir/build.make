@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sashwat/smart-cane-system/src/smart_cane_interfaces
+CMAKE_SOURCE_DIR = /home/ubuntu/smart-cane-system/src/smart_cane_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sashwat/smart-cane-system/build/smart_cane_interfaces
+CMAKE_BINARY_DIR = /home/ubuntu/smart-cane-system/build/smart_cane_interfaces
 
 # Utility rule file for smart_cane_interfaces.
 
@@ -66,9 +66,9 @@ include CMakeFiles/smart_cane_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/smart_cane_interfaces.dir/progress.make
 
-CMakeFiles/smart_cane_interfaces: /home/sashwat/smart-cane-system/src/smart_cane_interfaces/msg/UltrasonicData.msg
-CMakeFiles/smart_cane_interfaces: /home/sashwat/smart-cane-system/src/smart_cane_interfaces/msg/DetectionResult.msg
-CMakeFiles/smart_cane_interfaces: /home/sashwat/smart-cane-system/src/smart_cane_interfaces/msg/FeedbackCommand.msg
+CMakeFiles/smart_cane_interfaces: /home/ubuntu/smart-cane-system/src/smart_cane_interfaces/msg/UltrasonicData.msg
+CMakeFiles/smart_cane_interfaces: /home/ubuntu/smart-cane-system/src/smart_cane_interfaces/msg/DetectionResult.msg
+CMakeFiles/smart_cane_interfaces: /home/ubuntu/smart-cane-system/src/smart_cane_interfaces/msg/FeedbackCommand.msg
 CMakeFiles/smart_cane_interfaces: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/smart_cane_interfaces: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 CMakeFiles/smart_cane_interfaces: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -145,6 +145,6 @@ CMakeFiles/smart_cane_interfaces.dir/clean:
 .PHONY : CMakeFiles/smart_cane_interfaces.dir/clean
 
 CMakeFiles/smart_cane_interfaces.dir/depend:
-	cd /home/sashwat/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/src/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces /home/sashwat/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/ubuntu/smart-cane-system/build/smart_cane_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/src/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces /home/ubuntu/smart-cane-system/build/smart_cane_interfaces/CMakeFiles/smart_cane_interfaces.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/smart_cane_interfaces.dir/depend
 

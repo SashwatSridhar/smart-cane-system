@@ -1,0 +1,40 @@
+[INFO] [1752679939.992475437] [speaker_node]: ✅ Found TTS: espeak
+[INFO] [1752679939.993206630] [speaker_node]: 🔊 Using system TTS: espeak
+[INFO] [1752679939.993658061] [speaker_node]: 🗣️  Speaking: "Smart cane system TTS ready"
+[INFO] [1752679951.154107043] [speaker_node]: 🗣️  Speaking: "The person is 1.8m away"
+[INFO] [1752679954.250957086] [speaker_node]: 🗣️  Speaking: "The person is 0.1m away"
+[INFO] [1752679958.955638431] [speaker_node]: 🗣️  Speaking: "The person is 2.6m away"
+[ERROR] [1752679960.179038974] [speaker_node]: ❌ TTS command failed: Command '['espeak', '-s', '140', '-v', 'en', 'The person is 2.6m away']' died with <Signals.SIGINT: 2>.
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:423
+Traceback (most recent call last):
+  File "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system/speaker_node.py", line 97, in main
+    rclpy.spin(node)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+    executor.spin_once()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 839, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 823, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 793, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 701, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/smart_cane_system/speaker_node", line 33, in <module>
+    sys.exit(load_entry_point('smart-cane-system==0.0.0', 'console_scripts', 'speaker_node')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/smart-cane-system/install/smart_cane_system/lib/python3.12/site-packages/smart_cane_system/speaker_node.py", line 101, in main
+    rclpy.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+    context.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333
