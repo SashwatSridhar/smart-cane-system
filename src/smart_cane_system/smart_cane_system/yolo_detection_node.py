@@ -50,8 +50,8 @@ class Yolo_detection(Node):
         # Display settings
         self.show_display = True  # Set to False to disable visual display
         
-        self.get_logger().info('🎯 YOLO Detection Node with Visual Display initialized')
-        self.get_logger().info('📺 Press "q" in the camera window to quit display')
+        self.get_logger().info('YOLO Detection Node with Visual Display initialized')
+        self.get_logger().info('Press "q" in the camera window to quit display')
 
     def draw_detections(self, image, yolo_results):
         """Draw bounding boxes and labels on the image"""
@@ -142,7 +142,7 @@ class Yolo_detection(Node):
         
         # Publish detections
         self.detection_publisher.publish(detection_msg)
-        self.get_logger().info(f'📡 Published {detection_count} detections')
+        self.get_logger().info(f'Published {detection_count} detections')
         
         # Display camera feed with detections (if enabled)
         if self.show_display:
@@ -166,7 +166,7 @@ class Yolo_detection(Node):
             # Check for quit key
             key = cv2.waitKey(1) & 0xFF
             if key == ord('q'):
-                self.get_logger().info('🛑 Display window closed by user')
+                self.get_logger().info('Display window closed by user')
                 cv2.destroyAllWindows()
                 self.show_display = False
 
@@ -191,7 +191,7 @@ def main(args=None):
         # Spin the node
         rclpy.spin(node)
     except KeyboardInterrupt:
-        node.get_logger().info('🛑 YOLO Detection node stopped by user')
+        node.get_logger().info('YOLO Detection node stopped by user')
     finally:
         # Cleanup
         cv2.destroyAllWindows()

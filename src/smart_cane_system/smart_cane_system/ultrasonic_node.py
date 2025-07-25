@@ -22,10 +22,10 @@ class Ultrasonic(Node):
         # Configure the pins using gpiozero (Pi 5 compatible)
         try:
             # Configure with explicit max_distance (default is only 1m!)
-            self.sensor = DistanceSensor(echo=24, trigger=18, max_distance=4)
-            self.get_logger().info('✅ Ultrasonic sensor pins configured (max 4m range)')
+            self.sensor = DistanceSensor(echo=24, trigger=16, max_distance=4)
+            self.get_logger().info('Ultrasonic sensor pins configured (max 4m range)')
         except Exception as e:
-            self.get_logger().error(f'❌ Failed to configure sensor: {e}')
+            self.get_logger().error(f'Failed to configure sensor: {e}')
             return
 
         # Simple moving average filter for stability

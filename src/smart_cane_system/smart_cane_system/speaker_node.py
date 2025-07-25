@@ -20,11 +20,11 @@ class Speaker(Node):
         self.tts_command = self.find_best_tts()
         
         if self.tts_command:
-            self.get_logger().info(f'🔊 Using system TTS: {self.tts_command[0]}')
+            self.get_logger().info(f'Using system TTS: {self.tts_command[0]}')
             # Test announcement
             self.speak_system("Smart cane system TTS ready")
         else:
-            self.get_logger().error('❌ No system TTS found')
+            self.get_logger().error('No system TTS found')
 
         # Subscriber
         self.obstacle_fusion_listener = self.create_subscription(
@@ -55,7 +55,7 @@ class Speaker(Node):
                                       capture_output=True, 
                                       timeout=2)
                 if result.returncode == 0:
-                    self.get_logger().info(f'✅ Found TTS: {cmd[0]}')
+                    self.get_logger().info(f'Found TTS: {cmd[0]}')
                     return cmd
             except:
                 continue
@@ -73,7 +73,7 @@ class Speaker(Node):
     def speak_system(self, message):
         """Speak using system TTS command"""
         try:
-            self.get_logger().info(f'🗣️  Speaking: "{message}"')
+            self.get_logger().info(f'Speaking: "{message}"')
             
             # Build command with message
             cmd = self.tts_command.copy()
@@ -83,11 +83,11 @@ class Speaker(Node):
             subprocess.run(cmd, check=True, timeout=10)
             
         except subprocess.TimeoutExpired:
-            self.get_logger().error('❌ TTS timeout')
+            self.get_logger().error('TTS timeout')
         except subprocess.CalledProcessError as e:
-            self.get_logger().error(f'❌ TTS command failed: {e}')
+            self.get_logger().error(f'TTS command failed: {e}')
         except Exception as e:
-            self.get_logger().error(f'❌ TTS error: {e}')
+            self.get_logger().error(f'TTS error: {e}')
 
 def main(args=None):
     rclpy.init(args=args)
@@ -96,7 +96,7 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        node.get_logger().info('🛑 System TTS speaker stopped')
+        node.get_logger().info('System TTS speaker stopped')
     finally:
         rclpy.shutdown()
 

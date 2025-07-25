@@ -34,17 +34,17 @@ class Vibration(Node):
             10
         )
         
-        self.get_logger().info('🔥 Enhanced Vibration Node (2.4m range optimized)')
-        self.get_logger().info('💙 SLOW: Gentle pulses (2.0-2.4m range)')
-        self.get_logger().info('🟡 MEDIUM: Moderate pulses (1.0-2.0m range)')
-        self.get_logger().info('🔴 FAST: Urgent pulses (<1.0m - DANGER!)')
-        self.get_logger().info('⚫ STOP: Immediate vibration stop')
+        self.get_logger().info('Enhanced Vibration Node (2.4m range optimized)')
+        self.get_logger().info('SLOW: Gentle pulses (2.0-2.4m range)')
+        self.get_logger().info('MEDIUM: Moderate pulses (1.0-2.0m range)')
+        self.get_logger().info('FAST: Urgent pulses (<1.0m - DANGER!)')
+        self.get_logger().info('STOP: Immediate vibration stop')
 
     def vibration_callback(self, msg):
-        self.get_logger().info(f'📳 Vibration command received: {msg.data}')
+        self.get_logger().info(f'Vibration command received: {msg.data}')
         
         with self.thread_lock:
-            # 🛑 STOP any ongoing vibration first
+            # STOP any ongoing vibration first
             self.stop_current_vibration()
             
             # Start new vibration
@@ -70,23 +70,23 @@ class Vibration(Node):
     def vib_stop(self):
         """STOP: Turn off vibration immediately"""
         self.stop_current_vibration()
-        self.get_logger().info('⚫ STOP: Vibration stopped')
+        self.get_logger().info('STOP: Vibration stopped')
 
     def vib_slow(self):
         """SLOW: Gentle, long pulses for far detection (2.0-2.4m)"""
-        self.get_logger().info('💙 SLOW vibration: Far object (2.0-2.4m)')
+        self.get_logger().info('SLOW vibration: Far object (2.0-2.4m)')
         self.vibration_thread = threading.Thread(target=self.vibrate_pattern, args=(0.6, 1.0, 4))
         self.vibration_thread.start()
 
     def vib_medium(self):
         """MEDIUM: Moderate pulses for medium distance (1.0-2.0m)"""
-        self.get_logger().info('🟡 MEDIUM vibration: Medium distance (1.0-2.0m)')
+        self.get_logger().info('MEDIUM vibration: Medium distance (1.0-2.0m)')
         self.vibration_thread = threading.Thread(target=self.vibrate_pattern, args=(0.3, 0.4, 6))
         self.vibration_thread.start()
 
     def vib_fast(self):
         """FAST: Rapid urgent pulses for close objects (<1.0m)"""
-        self.get_logger().info('🔴 FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!')
+        self.get_logger().info('FAST vibration: CLOSE OBJECT (<1.0m) - DANGER!')
         self.vibration_thread = threading.Thread(target=self.vibrate_pattern, args=(0.1, 0.1, 12))
         self.vibration_thread.start()
 
@@ -95,14 +95,14 @@ class Vibration(Node):
         start_time = time.time()
         
         for i in range(cycles):
-            # 🛑 Check if we should stop
+            #Check if we should stop
             if self.stop_vibration:
                 break
                 
             self.motor.on()
             time.sleep(on_time)
             
-            # 🛑 Check again before turning off
+            #Check again before turning off
             if self.stop_vibration:
                 break
                 
@@ -125,7 +125,7 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        node.get_logger().info('🛑 Enhanced vibration node stopped')
+        node.get_logger().info('Enhanced vibration node stopped')
     finally:
         node.destroy_node()
         rclpy.shutdown()

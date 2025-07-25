@@ -21,7 +21,7 @@ class ObstacleFusionNode(Node):
         self.last_announcement_time = 0
         self.min_announcement_interval = 3.0  # 3 seconds between announcements
         
-        # 📳 ADD THESE VIBRATION STATE VARIABLES:
+       
         self.last_vibration_type = None
         self.last_vibration_distance = None
         self.last_vibration_time = 0
@@ -99,7 +99,6 @@ class ObstacleFusionNode(Node):
         
         # If detection has bbox information, use it
         # For now, we'll use a simple approach - just return True
-        # TODO: Implement proper bounding box center checking when available
         return True  # Simplified for now
     
     def find_center_detection(self):
@@ -204,7 +203,6 @@ class ObstacleFusionNode(Node):
         current_distance = self.latest_distance
         center_detection = self.find_center_detection()
         
-        # 🔧 STRICTER DISTANCE THRESHOLD: Reduce to 2.0m to avoid floor reflections
         if current_distance > 2.0:  # Changed from 2.4 to 2.0
             if self.vibration_active:
                 self.send_vibration_command("Stop")
@@ -212,7 +210,6 @@ class ObstacleFusionNode(Node):
                 self.last_vibration_type = None
             return
         
-        # 🔧 EVEN STRICTER: Only trust ultrasonic for very close objects
         # MODE 1: ULTRASONIC-ONLY (safety - trust for very close objects)
         if current_distance <= 1.2:  # Changed from 1.5 to 1.2 - only very close
             vibration_type = self.determine_vibration_type(current_distance)
@@ -230,9 +227,9 @@ class ObstacleFusionNode(Node):
                 else:
                     detected_object = "object"
                     
-                self.get_logger().info(f"📳 Ultrasonic mode: {vibration_type} for {detected_object} at {current_distance:.1f}m")
+                self.get_logger().info(f"Ultrasonic mode: {vibration_type} for {detected_object} at {current_distance:.1f}m")
         
-        # MODE 2: COMBINED MODE - MUCH STRICTER
+        # MODE 2: COMBINED MODE 
         elif center_detection and center_detection.results[0].hypothesis.score >= 0.85:  # Increased confidence from 0.75 to 0.85
             class_id = int(center_detection.results[0].hypothesis.class_id)
             detected_object = self.convert_id_to_name(class_id)
