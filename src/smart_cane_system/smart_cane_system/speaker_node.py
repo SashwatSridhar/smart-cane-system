@@ -37,23 +37,21 @@ class Speaker(Node):
     def find_best_tts(self):
         """Find the best available system TTS command"""
         # Try different TTS systems in order of preference
-        tts_options = [
+        tts_options = [ #Different TTS options and the code finds which one is installed in the Linux System
             # espeak-ng (usually installed on Ubuntu)
-            ['espeak-ng', '-s', '140', '-v', 'en'],
+            ['espeak-ng', '-s', '140', '-v', 'en'], #-s 140 is the speed which is 140 words per minute
             # espeak (fallback)
-            ['espeak', '-s', '140', '-v', 'en'],
+            ['espeak', '-s', '140', '-v', 'en'], #-v en is the voice which is in English
             # festival (if installed)
             ['festival', '--tts'],
             # spd-say (speech-dispatcher)
-            ['spd-say', '-r', '-30']  # Slower rate
+            ['spd-say', '-r', '-30']  # Slower rate -r -30 means speaker slower
         ]
         
         for cmd in tts_options:
             try:
                 # Test if command exists
-                result = subprocess.run([cmd[0], '--version'], 
-                                      capture_output=True, 
-                                      timeout=2)
+                result = subprocess.run([cmd[0], '--version'], capture_output=True, timeout=2) #checks whether the first cmd[0] which is the TTS option exists or not, return 0 if it exits
                 if result.returncode == 0:
                     self.get_logger().info(f'✅ Found TTS: {cmd[0]}')
                     return cmd
@@ -67,7 +65,7 @@ class Speaker(Node):
         if self.tts_command is None:
             return
             
-        # Use threading to prevent blocking
+        # Use threading to prevent blocking - speech outputs and node is able to continue to gain data without it the node freezes until speech is done
         threading.Thread(target=self.speak_system, args=(msg.data,)).start()
 
     def speak_system(self, message):
@@ -76,11 +74,11 @@ class Speaker(Node):
             self.get_logger().info(f'🗣️  Speaking: "{message}"')
             
             # Build command with message
-            cmd = self.tts_command.copy()
-            cmd.append(message)
+            cmd = self.tts_command.copy() #copy the TTS command
+            cmd.append(message) #append it to the cmd list
             
             # Execute TTS command
-            subprocess.run(cmd, check=True, timeout=10)
+            subprocess.run(cmd, check=True, timeout=10) #have a subprocess to run it, check if its true and make sure the command must finish wiuthin 10 secs
             
         except subprocess.TimeoutExpired:
             self.get_logger().error('❌ TTS timeout')
