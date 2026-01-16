@@ -2,14 +2,11 @@
 
 #!/usr/bin/env python3
 
-import rclpy
+import rclpy #library for ROS2 to create nodes, publish/subscribers...
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from cv_bridge import CvBridge
+from cv_bridge import CvBridge #covnerts OpenCV Images to ROS2 images 
 import cv2
-
-
-
 
 
 class Camera(Node):
@@ -21,7 +18,7 @@ class Camera(Node):
         #check if image capture was sucessful
         success_flag, img_data = self.cap.read() 
 
-        if success_flag == True: #returns true or false if the frame is read correctly 
+        if success_flag == True: #returns true or false if the frame is read correctly, we do this here to immediately make sure if there was a hardware problem. 
             self.get_logger().info('The camera  works properly')  
 
         else:
@@ -34,7 +31,7 @@ class Camera(Node):
         self.publisher_name = self.create_publisher(
             MessageType,      # What type of message to send
             '/topic_name',    # Which topic to publish to
-            10               # Queue size (usually 10 is fine)
+            10               # Queue size so there is a buffer between the publisher and subscriber
         )
         Note: NO callback function needed for publishers!
         '''
@@ -54,9 +51,9 @@ class Camera(Node):
     )
         '''
 
-        self.timer = self.create_timer(
-            0.2,
-            self.timer_callback
+        self.timer = self.create_timer( #we use a timer compared to a while loop as the time can work along with events. While loops block all other processes and and makes sure to complete the loop first
+            0.2, # 1 frame per 0.2 seconds, 5 frames per second
+            self.timer_callback 
         )
 
         # Log that the node started
@@ -73,7 +70,7 @@ class Camera(Node):
             success_flag, img_data = self.cap.read() 
 
             if success_flag == True: #returns true or false if the frame is read correctly 
-                cv_image = self.bridge.cv2_to_imgmsg(img_data, "bgr8")  # Convert ROS Image -> OpenCV (one line!) 
+                cv_image = self.bridge.cv2_to_imgmsg(img_data, "bgr8")  # Convert OpenCV → ROS Image 
                 #This image uses Blue-Green-Red color format with 8 bits per channel (found in Opencv documentation)
                 
                 #publish to topic
